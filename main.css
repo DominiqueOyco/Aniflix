@@ -81,9 +81,9 @@ button{
 }
 
 .schedule-table{
-	width: 100%;
+/*	width: 100%;*/
 	border-collapse: separate; 
-	border-spacing: 10px 20px
+	border-spacing: 30px 20px
 }
 
 .schedule-table td{
@@ -91,7 +91,7 @@ button{
 }
 
 
-footer{
+.short-webpage-footer{
    	position: fixed;
    	left: 0px;
    	bottom: 0px;
@@ -102,6 +102,18 @@ footer{
 	text-align: center;
 	font-family: Helvetica;
 	padding: 15px;	
+}
+
+footer{
+	clear: both;
+    background: black;
+	color: white;
+	text-align: center;
+	margin-bottom: -75px;
+	margin-left: -125px;
+	margin-right: -125px;
+	border-bottom: black 3px solid;
+	padding: 15px;
 }
 
 .center-buttons{
