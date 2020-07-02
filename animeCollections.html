@@ -8,7 +8,7 @@
 	<header>
 		<div class="container">
 			<div class="weblogo">
-				<h1 align="center"><a href="homepage.html">ANIFLIX</a></h1>
+				<h1 align="left"><a href="homepage.html">ANIFLIX</a></h1>
 			</div>
 			<nav>
 				<ul id="menu-index-items">
@@ -16,6 +16,10 @@
 					<li><a href="mangaCollections.html"><strong>Manga</strong></a></li>
 					<li><a href="vgCollections.html"><strong>Games</strong></a></li>
 					<li><a href="airings.html"><strong>Schedule</strong></a></li>
+					<form class="header-search">
+						<input type="text" placeholder="Anime, Manga, etc..">
+						<button type="search">Search</button>
+					</form>
 				</ul>
 			</nav>
 		</div>

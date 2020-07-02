@@ -1,12 +1,6 @@
 header{
     background: black;
 	font-family: Helvetica;
-/*	margin-top: -15px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding: 30px;
-	min-height: 30px;
-	border-bottom: black 5px solid;*/
 	margin-top: -50px;
 	margin-left: -75px;
 	margin-right: -75px;
@@ -57,6 +51,11 @@ header nav{
 header li a:hover{
 	background-color: black;
 	color: red;
+}
+
+.header-search {
+	display: inline-block;
+	float: right;
 }
 
 .container{
