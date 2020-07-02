@@ -2,8 +2,8 @@ header{
     background: black;
 	font-family: Helvetica;
 	margin-top: -50px;
-	margin-left: -75px;
-	margin-right: -75px;
+	margin-left: -150px;
+	margin-right: -150px;
 	padding-top: 50px;
 	min-height: 50px;
 	border-bottom: black 3px solid;
@@ -26,7 +26,7 @@ header li a{
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 header .weblogo{
@@ -64,13 +64,19 @@ header li a:hover{
 	overflow: hidden;
 }
 
+body{
+	margin-left: 7em;
+	margin-right: 7em;
+}
+
 footer{
 	clear: both;
     background: black;
 	color: white;
 	text-align: center;
-	margin-bottom: -75px;
-	margin-left: -75px;
-	margin-right: -75px;
+	font-family: Helvetica;
+	margin-bottom: -50px;
+	margin-left: -150px;
+	margin-right: -150px;
 	padding: 15px;	
 }
