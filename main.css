@@ -80,15 +80,22 @@ button{
 	color: white;	
 }
 
-/*main{
-	min-height: calc(100vh - 211px -58px);
-}*/
+.schedule-table{
+	width: 100%;
+	border-collapse: separate; 
+	border-spacing: 10px 20px
+}
+
+.schedule-table td{
+	font-size: 18px;
+}
+
 
 footer{
    	position: fixed;
    	left: 0px;
    	bottom: 0px;
-   	height: 30px;
+   	height: 50px;
    	width: 100%;	
     background: black;
 	color: white;
