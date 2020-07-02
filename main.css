@@ -1,0 +1,60 @@
+header{
+    background: white;
+	color: black;
+	font-family: Helvetica;
+	margin-top: -75px;
+	margin-left: -75px;
+	margin-right: -75px;
+	padding-top: 50px;
+	min-height: 70px;
+/*	border-bottom: yellow 3px solid;*/
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+header li{
+	float: left;
+	display; inline;
+	padding: 0 20px 0 20px;
+}
+
+header li a{
+/*	color: white;*/
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+header #weblogo{
+	float: left;
+}
+
+header #weblogo h1{
+	margin: 0;
+}
+
+header #weblogo h1 a{
+	font-size: 30px;
+	font-family: Helvetica;
+	color: red;
+}
+
+header nav{
+	float: center;
+	margin-top: 10px;
+}
+
+header li a:hover{
+	background-color: white;
+	color: purple;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
