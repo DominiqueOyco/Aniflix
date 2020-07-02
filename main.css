@@ -81,3 +81,26 @@ footer{
 	margin-right: -150px;
 	padding: 15px;	
 }
+
+/*.nav-blackbars{
+	text-align: center;
+	float: none;
+	display: inline-block;
+}
+*/
+.nav-blackbars button{
+	position: relative;
+	top: 50%;
+	left: 10.2%;
+	font-family: Helvetica
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	float: center;
+	padding: 0.5em;
+	margin: 0;
+}
+
+
+
+
