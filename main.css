@@ -1,13 +1,18 @@
 header{
-    background: white;
-	color: black;
+    background: black;
 	font-family: Helvetica;
-	margin-top: -75px;
+/*	margin-top: -15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 30px;
+	min-height: 30px;
+	border-bottom: black 5px solid;*/
+	margin-top: -50px;
 	margin-left: -75px;
 	margin-right: -75px;
 	padding-top: 50px;
-	min-height: 70px;
-/*	border-bottom: yellow 3px solid;*/
+	min-height: 50px;
+	border-bottom: black 3px solid;
 }
 
 header ul{
@@ -17,30 +22,31 @@ header ul{
 }
 
 header li{
-	float: left;
-	display; inline;
-	padding: 0 20px 0 20px;
+	float: center;
+	display: inline-block;
+	margin-left: 30px;
+	padding: 0 30px 0 30px;
 }
 
 header li a{
-/*	color: white;*/
+	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 18px;
 }
 
-header #weblogo{
+header .weblogo{
 	float: left;
 }
 
-header #weblogo h1{
+header .weblogo h1{
 	margin: 0;
 }
 
-header #weblogo h1 a{
+header .weblogo h1 a{
 	font-size: 30px;
-	font-family: Helvetica;
 	color: red;
+	text-decoration: none;
 }
 
 header nav{
@@ -49,8 +55,8 @@ header nav{
 }
 
 header li a:hover{
-	background-color: white;
-	color: purple;
+	background-color: black;
+	color: red;
 }
 
 .container{
