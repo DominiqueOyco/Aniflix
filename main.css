@@ -80,19 +80,50 @@ button{
 	color: white;	
 }
 
-footer{
+/*main{
+	min-height: calc(100vh - 211px -58px);
+}*/
+
+/*#page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+#content-wrap {
+	padding-bottom: 2.5rem;    
+}*/
+
+/*#footer {	
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 5.5rem;           
 	clear: both;
+	background: black;
+	color: white;
+	text-align: center;
+	float: center;
+	font-family: Helvetica;
+	margin-bottom: -50px;
+	margin-left: 50px;
+	margin-right: -150px;
+	padding: 15px;
+}*/
+
+footer{
+   	position: fixed;
+   	left: 0px;
+   	bottom: 0px;
+   	height: 30px;
+   	width: 100%;	
     background: black;
 	color: white;
 	text-align: center;
 	font-family: Helvetica;
-	margin-bottom: -50px;
-	margin-left: -150px;
-	margin-right: -150px;
 	padding: 15px;	
 }
 
-.center-buttons{
+/*.center-buttons{
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
@@ -100,17 +131,12 @@ footer{
 	left: 50%;
 	transform: translate(-50%, 25%);
 	display: inline-block;
-}
+}*/
 
 .center-buttons button{
-	font-family: Helvetica
-	font-size: 24px;
-	font-weight: bold;
-	background: #272626;
-	color: white;
 	border: none;
 	cursor: pointer;
-	float: left;
+	float: none;
 	padding: 0.5em;
 }
 
