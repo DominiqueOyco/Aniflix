@@ -80,8 +80,27 @@ button{
 	color: white;	
 }
 
+#main-highlight{
+	background: #212121;
+}
+
+/*#imageContainer-1{
+	text-align: center;
+	position: relative;
+}*/
+
+#image1-text a{
+	text-shadow: 10px 10px 10px black;
+	text-decoration: none;
+	font-size: 72px;
+	color: white;
+  	position: absolute;
+	top: 75%;
+	left: 45%;
+	transform: translate(-55%, -45%);
+}
+
 .schedule-table{
-/*	width: 100%;*/
 	border-collapse: separate; 
 	border-spacing: 30px 20px
 }
@@ -89,7 +108,6 @@ button{
 .schedule-table td{
 	font-size: 18px;
 }
-
 
 .short-webpage-footer{
    	position: fixed;
@@ -109,7 +127,7 @@ footer{
     background: black;
 	color: white;
 	text-align: center;
-	margin-bottom: -75px;
+	margin-bottom: -100px;
 	margin-left: -125px;
 	margin-right: -125px;
 	border-bottom: black 3px solid;
