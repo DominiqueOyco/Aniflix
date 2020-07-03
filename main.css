@@ -143,6 +143,30 @@ button{
 	padding: 15px;	
 }
 
+* {
+	box-sizing: border-box;
+}
+
+.collection-column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.collection-row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+	.collection-column {
+		width: 100%;
+	}
+}
+
 footer{
 	clear: both;
     background: black;
