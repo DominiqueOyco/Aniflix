@@ -61,7 +61,7 @@ header li a:hover{
 .container{
 	width: 80%;
 	margin: 0 auto;
-	overflow: hidden;
+/*	overflow: hidden;*/
 }
 
 body{
