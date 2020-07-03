@@ -88,10 +88,9 @@ button{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-/*	width: 50%;*/
 }
 
-#image1-text a{
+#image1-text h1 a{
 	text-shadow: 10px 10px 10px black;
 	text-decoration: none;
 	font-size: 72px;
@@ -101,6 +100,17 @@ button{
 	left: 45%;
 	transform: translate(-55%, -45%);
 }
+
+/*#image1-text a{
+	text-shadow: 10px 10px 10px black;
+	text-decoration: none;
+	font-size: 72px;
+	color: white;
+  	position: absolute;
+	top: 75%;
+	left: 45%;
+	transform: translate(-55%, -45%);
+}*/
 
 .schedule-table{
 	border-collapse: separate; 
