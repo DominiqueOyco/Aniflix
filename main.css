@@ -149,8 +149,9 @@ button{
 
 .collection-column {
 	float: left;
-	width: 33.33%;
-	padding: 5px;
+	width: 25%;
+	padding: 10px;
+	text-align: center;
 }
 
 /* Clearfix (clear floats) */
