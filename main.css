@@ -84,10 +84,14 @@ button{
 	background: #212121;
 }
 
-/*#imageContainer-1{
-	text-align: center;
-	position: relative;
-}*/
+#imageContainer-1 a img{
+/*	text-align: center;
+	position: relative;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 
 #image1-text a{
 	text-shadow: 10px 10px 10px black;
