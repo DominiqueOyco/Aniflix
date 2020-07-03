@@ -85,12 +85,10 @@ button{
 }
 
 #imageContainer-1 a img{
-/*	text-align: center;
-	position: relative;*/
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+/*	width: 50%;*/
 }
 
 #image1-text a{
