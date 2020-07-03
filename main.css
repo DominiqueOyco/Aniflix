@@ -115,16 +115,16 @@ button{
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-}
-
-.nav-blackbars button{
-	border: none;
-	cursor: pointer;
-	float: none;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, 25%);
 	display: inline-block;
+}
+
+.center-buttons button{
+	border: none;
+	cursor: pointer;
+	float: none;
 	padding: 0.5em;
 }
 
