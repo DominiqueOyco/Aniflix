@@ -180,14 +180,15 @@ button{
 .gallery-item img {
 	display: block;
 	padding: 5px;
-	max-width: 100%;
+	width: 100%;
+	object-fit: contain;
 }
 
 .gallery a{
 	text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 100%) {
 	.gallery {
 		width: 100%;
 	}
