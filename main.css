@@ -187,6 +187,12 @@ button{
 	text-align: center;
 }
 
+@media only screen and (max-width: 500px) {
+	.gallery {
+		width: 100%;
+	}
+}
+
 
 footer{
 	clear: both;
