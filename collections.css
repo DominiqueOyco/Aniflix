@@ -147,11 +147,11 @@ button{
 	padding: 15px;	
 }
 
-/** {
+/**{
 	box-sizing: border-box;
-}
+}*/
 
-.collection-column {
+/*.collection-column {
 	float: left;
 	width: 25%;
 	padding: 1px;
@@ -175,6 +175,7 @@ button{
 	grid-template-columns: repeat(3,100%);
 	overflow: hidden;
 	scroll-behavior: smooth;
+	background: #272626;
 }
 
 .wrapper section{
@@ -188,12 +189,13 @@ button{
 .wrapper .gallery-item{
 	padding: 0 2px;
 	transition: $duration all;
-
-	&:hover{ 
-		margin: 0 40px;
-		transform: scale(1.2);
-	}     
 }
+
+.wrapper img:hover{ 
+	margin: 0 40px;
+	transform: scale(1.2);
+}     
+
     
 .wrapper a{
 	position: absolute;
@@ -207,17 +209,17 @@ button{
 	z-index: 1;
 }
 	      
-.wrapper &:nth-of-type(1){
+.wrapper:nth-of-type(1){
 	top:0; bottom:0; left:0;
 	background: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
 }
 
-.wrapper &:nth-of-type(2) {
+.wrapper:nth-of-type(2) {
 	top:0; bottom:0; right: 0;
 	background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
-}     */
+}     
 
-/*@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 	a.arrow__btn {
 		display:none;
 	}
@@ -225,9 +227,8 @@ button{
 
 .gallery {
 	display: flex;
-	margin-top: 50px;
+	margin-top: 75px;
 	margin-bottom: 75px;
-	padding: 20px;
 }
 
 .gallery-item {
