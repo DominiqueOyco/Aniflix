@@ -158,7 +158,7 @@ button{
 	display: block;
 	flex: 1 1 0px;
 	transition: transform 500ms;
-	margin: 5px 5px;
+	margin: 0 5px;
 }
 
 .gallery:focus-within .gallery-item,
@@ -179,7 +179,7 @@ button{
 
 .gallery-item img {
 	display: block;
-	padding: 5px;
+	padding: 2px;
 	width: 100%;
 	object-fit: contain;
 }
