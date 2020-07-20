@@ -198,6 +198,10 @@ button{
 	background-color: #717171;
 }
 
+.slideshow-container h1{
+	float: right;
+}
+
 /* Fading animation */
 .fade {
 	-webkit-animation-name: fade;
