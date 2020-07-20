@@ -133,17 +133,17 @@ button{
 
 /* Slideshow container */
 .slideshow-container {
-	max-width: 1280px;
-	max-height: 720px;
+	max-width: 1000px;
 	position: relative;
-	margin: 25px auto; /*margin: auto; centers the slideshow!*/
+	margin-top: 25px;
+	/*margin: 25px auto;*/ /*margin: auto; centers the slideshow!*/
 }
 
 /* Next & previous buttons */
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	width: auto;
 	padding: 16px;
 	margin-top: -22px;
@@ -168,12 +168,12 @@ button{
 
 /* Caption text */
 .text{
-	color: black;
-	background: rgba(255, 255, 255, 0.7);
-	font-size: 20px;
-	padding: 15px;
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+	font-size: 18px;
+	padding: 10px;
 	position: absolute;
-	bottom: 15px;
+	bottom: 40px;
 	width: 100%;
 	/*text-align: center;*/
 }
