@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title> ANIFLIX | Collection of Anime, Manga, and Video Games </title>
 	<link href="main.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -27,7 +28,7 @@
 
 <!-- TODO: IMPLEMENT A SLIDESHOW AND A CURRENT DAY SCHEDULE SECTION. CURENT DAY SCHEDULE WILL DISPLAY THE CURRENT SCHEDULE BASED ON THE CURRENT DAY -->
 	<div class="web-body">
-		<section id="main-highlight">
+<!-- 		<section id="main-highlight">
 			<div id="imageContainer-1">
 				<a href="https://www.viz.com/one-punch-man"><img src="https://i.pinimg.com/originals/4b/0d/84/4b0d84de7839e69b3f42b76b2b0a3b9c.gif" width="1280" height="720" target="_blank"></a>
 			 	<div id="image1-text"><h1><a href="https://www.viz.com/one-punch-man" target="_blank">ONE PUNCH MAN RETURNS FOR A SECOND SEASON ON JULY 12!</a></h1></div>
@@ -84,7 +85,88 @@
 				</tbody>
 	        </table>
 	    	<br>
+		</main> -->
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<img src="https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfbOU8mKtyRgZVrcJX81wOAhI4pwpIEnyIYMDN2tdxjV7g_iRrqKY57vSUWKNTCMj7cdgSjJ_RtcqL1IlkRlpvNN2cw.jpg?r=aed" style="width:100%">
+				<div class="text">Caption Text</div>
+			</div>
+
+			<div class="mySlides fade">
+				<img src="TODO PLACEHOLDER.jpg" style="width:100%">
+				<div class="text">Caption Two</div>
+			</div>
+
+			<div class="mySlides fade">]
+				<img src="TODO PLACEHOLDER.jpg" style="width:100%">
+				<div class="text">Caption Three</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<br>
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+		</div>
+
+		<main>
+			<h2>UPCOMING SHOWS</h2>
+	        <table class="schedule-table">
+				<tbody>
+					<tr>
+						<td style="text-align: center;"><img src="https://m.media-amazon.com/images/M/MV5BZWQwYzQ2NWYtNWU0ZC00NzA2LThlNjItOWIzY2U5ODA1NjM5XkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_.jpg" width="210" height="297"><br>HANDA-KUN<br>JULY 11 8PM</td>
+						<td style="text-align: center;"><img src="https://img1.ak.crunchyroll.com/i/spire1/a882f2b5a32feddea9d858dffe35a7601511996814_full.jpg" width="210" height="297"><br>D-FRAG<br> JULY 11 8:30PM</td>
+						<td style="text-align: center;"><img src="https://img1.ak.crunchyroll.com/i/spire2/486f88e5889422c72ab7b12a58f794721554828665_full.jpg" width="210" height="297"><br>ONE PUNCH MAN 2<br>JULY 12 8PM</td>
+						<td style="text-align: center;"><img src="https://img1.ak.crunchyroll.com/i/spire3/58e0d5c8a7c6966e41b832a71badfb8c1542631395_full.jpg" width="210" height="297"><br>ROBIHACHI<br>JULY 12 8:30PM</td>					
+					</tr>
+				</tbody>
+	        </table>
+
+	        <br>
+
+	        <h2>COMING SOON!</h2>
+	        <table class="schedule-table">
+				<tbody>
+					<tr>
+						<td style="text-align: center;"><img src="https://i.pinimg.com/originals/31/8c/f5/318cf5bd79952a322315351cbc037b41.jpg" width="210" height="297"><br>GUNDAM SEED<br></td>	
+						<td style="text-align: center;"><img src="https://i.pinimg.com/236x/6b/31/4e/6b314e00157b9943bbb9d01ed72daa94--film-noir-o-film.jpg" width="210" height="297"><br>THE BIG O!</td>					
+					</tr>
+				</tbody>
+	    	</table>
+
+	    	<br>
+
+	        <h2>SEE CURRENT AIRINGS</h2>
+	        <table class="schedule-table">
+				<tbody>
+					<tr>
+						<td style="padding: 15px;"></td>
+						<td><img src="https://images7.alphacoders.com/981/thumb-1920-981906.jpg" width="720" height="480"></td>
+						<td style="text-align: center; background: #cf0830; color: white; font-weight: bold;"><a href="airings.html" style="text-decoration: none; color: white;  text-align: center;">VIEW THE CURRENT AIRING SCHEDULE RIGHT NOW!</a> <p>See what is on-air right now</p></td>					
+					</tr>
+				</tbody>
+	        </table>
+	    	<br>
+
+	        <h2>SEE ALL THE SHOWS</h2>
+	        <table class="schedule-table">
+				<tbody>
+					<tr>
+						<td style="padding: 15px;"></td>
+						<td style="text-align: center; background: #cf0830; color: white; font-weight: bold;"><a href="animeCollections.html" style="text-decoration: none; color: white;  text-align: center; padding: 60px;"> VIEW THE COLLECTION</a> <p>See all the titles in the library</p></td>	
+						<td><img src="https://images.wallpapersden.com/image/download/demon-slayer_67306_2560x1440.jpg" width="720" height="480"></td>				
+					</tr>
+				</tbody>
+	        </table>
+	    	<br>
 		</main>
+
+		<script src="centralScript.js"></script>
 	</div>
 
 	<footer> <img src="https://fontmeme.com/permalink/200702/017a5ba86b4f1c1c2d2ef87bae67d8f5.png" alt="netflix-font" border="0"> © 2020 Aniflix Inc.</footer>
