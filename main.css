@@ -167,15 +167,19 @@ button{
 }
 
 /* Caption text */
-.text {
+.text{
 	color: black;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.7);
 	font-size: 15px;
-	padding: 100px 0;
+	padding: 50px 0;
 	position: absolute;
 	bottom: 40px;
 	width: 100%;
-	text-align: center;
+	/*text-align: center;*/
+}
+
+.text h1, .text h2, .text p{
+	margin: 0 50px;
 }
 
 /* The dots/bullets/indicators */
