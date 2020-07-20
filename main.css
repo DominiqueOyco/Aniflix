@@ -169,7 +169,7 @@ button{
 /* Caption text */
 .text{
 	color: white;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.5);
 	font-size: 18px;
 	padding: 10px;
 	position: absolute;
