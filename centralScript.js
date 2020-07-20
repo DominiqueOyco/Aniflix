@@ -1,12 +1,15 @@
 var slideIndex = 1;
+var timer = null;
 // showSlides();
 showSlides(slideIndex);
 
 function plusSlides(n) {
+  clearTimeout(timer);
   showSlides(slideIndex += n);
 }
 
 function currentSlide(n) {
+  clearTimeout(timer);
   showSlides(slideIndex = n);
 }
 
@@ -65,7 +68,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 
-  setTimeout(showSlides, 7000); // Change image every 5 seconds
+  timer = setTimeout(showSlides, 7000); // Change image every 5 seconds
 }
 
 
