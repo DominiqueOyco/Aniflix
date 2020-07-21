@@ -140,7 +140,7 @@ button{
 
 /* Slideshow container */
 .slideshow-container {
-	float: left;
+	/*float: left;*/
 	vertical-align: middle;
 	max-width: 900px;
 	position: relative;
