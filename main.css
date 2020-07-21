@@ -96,7 +96,7 @@ button{
 	margin-right: 7em;
 }
 
-#main-highlight{
+/*#main-highlight{
 	background: #212121;
 	position: relative;
 }
@@ -116,11 +116,18 @@ button{
 	top: 70%;
 	left: 45%;
 	transform: translate(-55%, -45%);
-}
+}*/
 
 /*THIS SECTION IS FOR THE HOMEPAGE*/
 * {
 	box-sizing: border-box
+}
+
+#home-highlight{
+	clear: both;
+	display: flex;
+	max-width: 1920px;
+	max-height: 1080px;
 }
 
 .mySlides {
@@ -133,9 +140,12 @@ button{
 
 /* Slideshow container */
 .slideshow-container {
-	max-width: 1000px;
+	float: left;
+	vertical-align: middle;
+	max-width: 900px;
 	position: relative;
-	margin-top: 25px;
+	margin-top: 75px;
+	margin-right: 50px;
 	/*margin: 25px auto;*/ /*margin: auto; centers the slideshow!*/
 }
 
@@ -143,7 +153,7 @@ button{
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
-	top: 40%;
+	top: 10%;
 	width: auto;
 	padding: 16px;
 	margin-top: -22px;
@@ -198,8 +208,32 @@ button{
 	background-color: #717171;
 }
 
-.slideshow-container h1{
+#home-highlight{
+	clear: both;
+	display: flex;
+	max-height: 900px;
+}
+
+#schedule-home{
 	float: right;
+	vertical-align: middle;
+	display: inline;
+	margin-top: 65px;
+	background: rgba(0,0,0,0.5);
+	padding: 30px 30px;
+}
+
+#schedule-home h1{
+	font-size: 16px;
+}
+
+/*.schedule-home h1{
+	top: 50px;
+	left: 25px;
+}*/
+
+.home-body{
+	float: left;
 }
 
 /* Fading animation */
@@ -224,14 +258,6 @@ button{
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
-/*#current-schedule{
-	float: right;
-}*/
-
-/*#current-schedule h1{
-	text-align: left;
-}*/
 
 /*THIS SECTION IS FOR THE SCHEDULE*/
 .schedule-table{
