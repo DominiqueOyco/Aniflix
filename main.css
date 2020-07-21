@@ -144,7 +144,7 @@ button{
 	vertical-align: middle;
 	max-width: 900px;
 	position: relative;
-	margin-top: 75px;
+	margin-top: 25px;
 	/*margin: 25px auto;*/ /*margin: auto; centers the slideshow!*/
 }
 
@@ -215,7 +215,7 @@ button{
 
 #schedule-home{
 	display: inline-block;
-	margin-top: 75px;
+	margin-top: 25px;
 	background: rgba(0,0,0,0.5);
 	padding: 30px 50px;
 }
