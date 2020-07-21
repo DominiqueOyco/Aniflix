@@ -83,9 +83,13 @@ function showSlides(n) {
 //   }
 // }
 
+//this section is dedicated to the schedule-home section of the homepage
 var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"]
+var sunday = ["8PM ONE PUNCH MAN", "8:30PM ROBIHACHI", "9PM UNSTOPPABLE HIGH KICK"];
+var weekdays = ["5PM POKEMON", "5:30PM ONE PIECE", "7:45PM GOLGO 13",  "8:15PM MONSTER", "8:45PM OUTLAW STAR", "9:15PM SPACE BROTHERS"];
+var saturday = ["8PM HANDA KUN", "8:30PM D-FRAG", "9PM UNSTOPPABLE HIGH KICK"];
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
@@ -93,6 +97,14 @@ var yyyy = today.getFullYear();
 document.getElementById('schedule-home').innerHTML += days[now];
 today = ' ' + mm + '/' + dd + '/' + yyyy;
 document.getElementById('schedule-home').innerHTML += today;
+
+if(days[now] == 0){
+  //TODO: DISPLAY THE SUNDAY ARRAY
+}else if(days[now] == 1 || days[now] == 2 || days[now] == 3 || days[now] == 4 || days[now] == 5){
+  //TODO: DISPLAY THE WEEKDAY ARRAY
+}else if(days[now] == 6){
+  //TODO: DISPLAY THE SATURDAY ARRAY
+}
 
 
 
