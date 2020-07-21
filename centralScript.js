@@ -91,7 +91,7 @@ var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 
 document.getElementById('schedule-home').innerHTML += days[now];
-today = mm + '/' + dd + '/' + yyyy;
+today = ' ' + mm + '/' + dd + '/' + yyyy;
 document.getElementById('schedule-home').innerHTML += today;
 
 
