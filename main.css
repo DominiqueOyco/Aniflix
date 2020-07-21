@@ -142,10 +142,10 @@ button{
 .slideshow-container {
 	/*float: left;*/
 	vertical-align: middle;
-	max-width: 720px;
+	max-width: 1920px;
 	position: relative;
-	margin-top: 25px;
-	margin-right: auto;
+	margin: 50px auto;
+
 	/*margin: 25px auto;*/ /*margin: auto; centers the slideshow!*/
 }
 
@@ -220,7 +220,7 @@ button{
 #schedule-home{
 	/*display: inline-block;*/
 	background: rgba(0,0,0,0.5);
-	padding: 50px 50px;
+	padding: 50px 200px;
 }
 
 #schedule-home h1{
