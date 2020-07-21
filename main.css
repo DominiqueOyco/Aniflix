@@ -140,9 +140,9 @@ button{
 
 /* Slideshow container */
 .slideshow-container {
-	/*float: left;*/
+	float: left;
 	vertical-align: middle;
-	max-width: 1920px;
+	max-width: 800px;
 	position: relative;
 	margin: 50px auto;
 
@@ -180,7 +180,7 @@ button{
 .text{
 	color: white;
 	background: rgba(0, 0, 0, 0.5);
-	font-size: 20px;
+	font-size: 16px;
 	padding-top: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -219,21 +219,14 @@ button{
 
 #schedule-home{
 	/*display: inline-block;*/
-	background: rgba(0,0,0,0.5);
-	padding: 15px 75px;
-	height: 400px;
-}
-
-#schedule-home img{
 	float: right;
-	height: 100%;
-	object-fit: scale-down;
+	vertical-align: middle;
+	background: rgba(0,0,0,0.5);
+	margin: 50px auto;
+	padding: 15px 75px;
+	width: 400px;
+	height: 450px;
 }
-
-/*.schedule-home h1{
-	top: 50px;
-	left: 25px;
-}*/
 
 .home-body{
 	float: left;
@@ -258,8 +251,14 @@ button{
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+@media only screen and (max-width: 100px) {
+/*	.prev, .next, .text {font-size: 11px; display: none;}*/
+	.text{font-size: 2px;}
+}
+
+@media only screen and (max-width: 100px){
+	#schedule-home{font-size: 5px}
+	#schedule-home < img{display: none}
 }
 
 /*THIS SECTION IS FOR THE SCHEDULE*/
