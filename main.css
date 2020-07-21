@@ -251,14 +251,18 @@ button{
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 100px) {
+@media only screen and (min-width: 100px) {
 /*	.prev, .next, .text {font-size: 11px; display: none;}*/
-	.text{font-size: 2px;}
+	.prev, .next, .text{font-size: 5px;}
+	#schedule-home{font-size: 5px}
 }
 
-@media only screen and (max-width: 100px){
-	#schedule-home{font-size: 5px}
-	#schedule-home < img{display: none}
+@media only screen and (max-width: 1920px){
+	.slideshow-container{max-width: 1280; font-size: 20px;}
+}
+
+@media only screen and (min-width: 900px){
+	.slideshow-container{max-width: 500; font-size: 14px;}
 }
 
 /*THIS SECTION IS FOR THE SCHEDULE*/
