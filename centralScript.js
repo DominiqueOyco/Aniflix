@@ -87,23 +87,32 @@ function showSlides(n) {
 var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"]
-var sunday = ["8PM ONE PUNCH MAN", "8:30PM ROBIHACHI", "9PM UNSTOPPABLE HIGH KICK"];
-var weekdays = ["5PM POKEMON", "5:30PM ONE PIECE", "7:45PM GOLGO 13",  "8:15PM MONSTER", "8:45PM OUTLAW STAR", "9:15PM SPACE BROTHERS"];
-var saturday = ["8PM HANDA KUN", "8:30PM D-FRAG", "9PM UNSTOPPABLE HIGH KICK"];
+var sunday = ["<br>", "8:00PM - ONE PUNCH MAN", "<br>", "<br>", "8:30PM - ROBIHACHI", "<br>", "<br>", "9:00PM - UNSTOPPABLE HIGH KICK", "<br>", "<br>"];
+var weekdays = ["<br>", "5:00PM - POKEMON", "<br>", "<br>", "5:30PM - ONE PIECE", "<br>", "<br>", "7:45PM - GOLGO 13", "<br>", "<br>", "8:15PM - MONSTER", "<br>", "<br>", "8:45PM - OUTLAW STAR", "<br>", "<br>", "9:15PM - SPACE BROTHERS", "<br>", "<br>"];
+var saturday = ["<br>", "8:00PM HANDA KUN", "<br>", "<br>", "8:30PM - D-FRAG", "<br>", "<br>", "9:00PM - UNSTOPPABLE HIGH KICK", "<br>", "<br>"];
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 
-document.getElementById('schedule-home').innerHTML += days[now];
+document.getElementById('schedule-home').innerHTML += "<strong>" + days[now];
 today = ' ' + mm + '/' + dd + '/' + yyyy;
-document.getElementById('schedule-home').innerHTML += today;
+document.getElementById('schedule-home').innerHTML += "<strong>" + today + "<br> <br>";
 
-if(days[now] == 0){
+if(days[now] == "SUNDAY"){
   //TODO: DISPLAY THE SUNDAY ARRAY
-}else if(days[now] == 1 || days[now] == 2 || days[now] == 3 || days[now] == 4 || days[now] == 5){
+  for (var i=0; i < sunday.length; i++){
+    document.getElementById('schedule-home').innerHTML += sunday[i];
+  }
+}else if(days[now] == "MONDAY" || days[now] == "TUESDAY" || days[now] == "WEDNESDAY" || days[now] == "THURSDAY" || days[now] == "FRIDAY"){
   //TODO: DISPLAY THE WEEKDAY ARRAY
-}else if(days[now] == 6){
+  for (var i=0; i < weekdays.length; i++){
+    document.getElementById('schedule-home').innerHTML += weekdays[i];
+  }
+}else if(days[now] == "SATURDAY"){
   //TODO: DISPLAY THE SATURDAY ARRAY
+  for (var i=0; i < saturday.length; i++){
+    document.getElementById('schedule-home').innerHTML += saturday[i];
+  }
 }
 
 

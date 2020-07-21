@@ -220,11 +220,15 @@ button{
 #schedule-home{
 	/*display: inline-block;*/
 	background: rgba(0,0,0,0.5);
-	padding: 50px 200px;
+	padding: 15px 75px;
+	height: 425px;
 }
 
-#schedule-home h1{
-	font-size: 16px;
+#schedule-home img{
+	float: right;
+	width: 200px;
+	height: 400px;
+	object-fit: cover;
 }
 
 /*.schedule-home h1{
