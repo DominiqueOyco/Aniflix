@@ -142,7 +142,7 @@ button{
 .slideshow-container {
 	float: left;
 	vertical-align: middle;
-	max-width: 800px;
+	max-width: 65%;
 	position: relative;
 	margin: 50px auto;
 
@@ -251,14 +251,10 @@ button{
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (min-width: 100px) {
+@media only screen and (max-width: 1920px) {
 /*	.prev, .next, .text {font-size: 11px; display: none;}*/
-	.prev, .next, .text{font-size: 5px;}
-	#schedule-home{font-size: 5px}
-}
-
-@media only screen and (max-width: 1920px){
-	.slideshow-container{max-width: 1280; font-size: 20px;}
+	.prev, .next, .text{font-size: 16px;}
+	.slideshow-container{max-width: 1280;}
 }
 
 @media only screen and (min-width: 900px){
