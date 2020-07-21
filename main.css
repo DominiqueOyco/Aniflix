@@ -226,8 +226,8 @@ button{
 
 #schedule-home img{
 	float: right;
-	width: 100%;
 	height: 100%;
+	object-fit: scale-down;
 }
 
 /*.schedule-home h1{
