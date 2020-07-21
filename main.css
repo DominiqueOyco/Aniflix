@@ -142,9 +142,10 @@ button{
 .slideshow-container {
 	/*float: left;*/
 	vertical-align: middle;
-	max-width: 900px;
+	max-width: 720px;
 	position: relative;
 	margin-top: 25px;
+	margin-right: auto;
 	/*margin: 25px auto;*/ /*margin: auto; centers the slideshow!*/
 }
 
@@ -179,8 +180,11 @@ button{
 .text{
 	color: white;
 	background: rgba(0, 0, 0, 0.5);
-	font-size: 18px;
-	padding: 10px;
+	font-size: 14px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
 	position: absolute;
 	bottom: 40px;
 	width: 100%;
@@ -207,17 +211,16 @@ button{
 	background-color: #717171;
 }
 
-#home-highlight{
+/*#home-highlight{
 	clear: both;
 	display: flex;
 	max-height: 900px;
-}
+}*/
 
 #schedule-home{
-	display: inline-block;
-	margin-top: 25px;
+	/*display: inline-block;*/
 	background: rgba(0,0,0,0.5);
-	padding: 30px 50px;
+	padding: 50px 50px;
 }
 
 #schedule-home h1{
