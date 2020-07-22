@@ -94,24 +94,24 @@ var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 
-document.getElementById('schedule-home').innerHTML += "<strong>" + days[now];
+document.getElementById('schedule-contents').innerHTML += "<strong>" + days[now];
 today = ' ' + mm + '/' + dd + '/' + yyyy;
-document.getElementById('schedule-home').innerHTML += "<strong>" + today + "<br> <br>";
+document.getElementById('schedule-contents').innerHTML += "<strong>" + today + "<br> <br>";
 
 if(days[now] == "SUNDAY"){
   //TODO: DISPLAY THE SUNDAY ARRAY
   for (var i=0; i < sunday.length; i++){
-    document.getElementById('schedule-home').innerHTML += sunday[i];
+    document.getElementById('schedule-contents').innerHTML += sunday[i];
   }
 }else if(days[now] == "MONDAY" || days[now] == "TUESDAY" || days[now] == "WEDNESDAY" || days[now] == "THURSDAY" || days[now] == "FRIDAY"){
   //TODO: DISPLAY THE WEEKDAY ARRAY
   for (var i=0; i < weekdays.length; i++){
-    document.getElementById('schedule-home').innerHTML += weekdays[i];
+    document.getElementById('schedule-contents').innerHTML += weekdays[i];
   }
 }else if(days[now] == "SATURDAY"){
   //TODO: DISPLAY THE SATURDAY ARRAY
   for (var i=0; i < saturday.length; i++){
-    document.getElementById('schedule-home').innerHTML += saturday[i];
+    document.getElementById('schedule-contents').innerHTML += saturday[i];
   }
 }
 
