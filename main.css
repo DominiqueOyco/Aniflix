@@ -222,9 +222,10 @@ button{
 	float: right;
 	vertical-align: middle;
 	background: rgba(0,0,0,0.5);
+	position: relative;
 	margin: 50px auto;
 	padding: 15px 75px;
-	width: 400px;
+	max-width: 50%;
 	height: 450px;
 }
 
