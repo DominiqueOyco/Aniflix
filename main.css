@@ -293,7 +293,7 @@ button{
 @media only screen and (min-width: 1920px) {
 /*	.prev, .next, .text {font-size: 11px; display: none;}*/
 	.prev, .next, .text{font-size: 20px;}
-	.slideshow-container{max-width: 75%;}
+	.slideshow-container{max-width: 70%;}
 	#schedule-home{width: 450px; height: 700px;}
 }
 
