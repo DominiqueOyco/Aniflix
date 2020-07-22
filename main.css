@@ -250,6 +250,35 @@ button{
 	to {opacity: 1}
 }
 
+.home-img{
+	float: left;
+}
+
+.home-txt{
+	float: right;
+	vertical-align: middle;
+	text-align: center; 
+	background: #cf0830; 
+	color: white; 
+	font-weight: bold;
+	padding-top: 200px;
+	padding-left: 65px;
+	padding-right: 65px;
+	padding-bottom: 210px;
+}
+
+.home-txt a{
+	text-decoration: none; 
+	color: white;  
+	text-align: center;
+}
+
+
+#new-shows{
+	float: left;
+	vertical-align: middle;
+}
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 1080px){
 	.prev, .next, .text{display: none;}
