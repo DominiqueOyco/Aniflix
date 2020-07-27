@@ -352,7 +352,8 @@ button{
 	margin: 0 5px;
 }
 
-.gallery:focus-within .gallery-item,
+/*COOL OLD NETFLIX FUNCTIONALITIES THAT MIGHT BE OF SOME USE LATER!*/
+/*.gallery:focus-within .gallery-item,
 .gallery:hover .gallery-item{
 	transform: translateX(-25%);
 }
@@ -366,7 +367,7 @@ button{
 .gallery .gallery-item:hover {
 	transform: scale(1.5);
 	z-index: 1;
-}
+}*/
 
 .gallery-item img {
 	display: block;
