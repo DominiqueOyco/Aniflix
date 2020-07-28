@@ -350,6 +350,8 @@ button{
 	flex: 1 1 0px;
 	transition: transform 500ms;
 	margin: 0 5px;
+	text-decoration: none;
+	color: white;
 }
 
 /*COOL OLD NETFLIX FUNCTIONALITIES THAT MIGHT BE OF SOME USE LATER!*/
