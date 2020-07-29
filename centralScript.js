@@ -63,11 +63,11 @@ if(days[now] == "SUNDAY"){
   for (var i=0; i < sunday.length; i++){
     document.getElementById('schedule-contents').innerHTML += sunday[i];
   }
-}else if(days[now] == "MONDAY" || days[now] == "TUESDAY" || days[now] == "WEDNESDAY" || days[now] == "THURSDAY" || days[now] == "FRIDAY"){
+} else if(days[now] == "MONDAY" || days[now] == "TUESDAY" || days[now] == "WEDNESDAY" || days[now] == "THURSDAY" || days[now] == "FRIDAY"){
   for (var i=0; i < weekdays.length; i++){
     document.getElementById('schedule-contents').innerHTML += weekdays[i];
   }
-}else if(days[now] == "SATURDAY"){
+} else if(days[now] == "SATURDAY"){
   for (var i=0; i < saturday.length; i++){
     document.getElementById('schedule-contents').innerHTML += saturday[i];
   }
