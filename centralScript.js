@@ -73,6 +73,7 @@ if(days[now] == "SUNDAY"){
   }
 }
 
+document.getElementById('schedule-contents').innerHTML += "<br>" + "<a href='airings.html'><strong>SEE THE ENTIRE SCHEDULE!</strong></a>";
 
 
 
