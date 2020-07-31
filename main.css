@@ -287,14 +287,22 @@ button{
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 667px){
+	.slideshow-container{max-width: 100%}
 	.prev, .next, .text{display: none;}
-	#schedule-home{display: none;}
+	.web-body{font-size:5px;}
+	#schedule-home{display:none;}
+}
+
+@media only screen and (max-width: 1080px){
+	.prev, .next, .text{font-size: 6px;}
+	.web-body{font-size: 8px;}
+	#schedule-home{width: 30px; height: 460px; font-size: 8px;}
 }
 
 @media only screen and (max-width: 1400px){
 	.prev, .next, .text{font-size: 10px;}
-	#schedule-home{width: 300px; height: 400px; font-size: 14px;}
+	#schedule-home{width: 300px; height: 460px; font-size: 14px;}
 }
 
 @media only screen and (min-width: 1920px) {
