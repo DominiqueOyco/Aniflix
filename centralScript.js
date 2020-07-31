@@ -48,9 +48,9 @@ function showSlides(n) {
 var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"]
-var sunday = ["<br>", "8:00PM - ONE PUNCH MAN", "<br>", "<br>", "8:30PM - ROBIHACHI", "<br>", "<br>", "9:00PM - UNSTOPPABLE HIGH KICK", "<br>", "<br>"];
-var weekdays = ["<br>", "5:00PM - POKEMON", "<br>", "<br>", "5:30PM - ONE PIECE", "<br>", "<br>", "7:45PM - GOLGO 13", "<br>", "<br>", "8:15PM - MONSTER", "<br>", "<br>", "8:45PM - OUTLAW STAR", "<br>", "<br>", "9:15PM - SPACE BROTHERS", "<br>", "<br>"];
-var saturday = ["<br>", "8:00PM - HANDA KUN", "<br>", "<br>", "8:30PM - D-FRAG", "<br>", "<br>", "9:00PM - UNSTOPPABLE HIGH KICK", "<br>", "<br>"];
+var sunday = ["<br>", "<li>8:00PM - ONE PUNCH MAN</li>", "<br>", "<li>8:30PM - ROBIHACHI</li>", "<br>", "<li>9:00PM - UNSTOPPABLE HIGH KICK</li>", "<br>", "<br>"];
+var weekdays = ["<br>", "<li>5:00PM - POKEMON</li>", "<br>", "<li>5:30PM - ONE PIECE</li>", "<br>", "<li>7:45PM - GOLGO 13</li>", "<br>", "<li>8:15PM - MONSTER</li>", "<br>", "<li>8:45PM - OUTLAW STAR</li>", "<br>", "<li>9:15PM - SPACE BROTHERS</li>", "<br>", "<br>"];
+var saturday = ["<br>", "<li>8:00PM - HANDA KUN</li>", "<br>", "<br>", "<li>8:30PM - D-FRAG</li>", "<br>", "<br>", "<li>9:00PM - UNSTOPPABLE HIGH KICK</li>", "<br>", "<br>"];
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();

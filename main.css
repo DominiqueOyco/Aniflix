@@ -229,6 +229,10 @@ button{
 	height: 445px;
 }
 
+#schedule-contents li{
+	list-style-type: none;
+}
+
 #schedule-contents a{
 	text-decoration: none;
 	color: white;
