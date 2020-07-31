@@ -358,8 +358,7 @@ button{
 
 .gallery {
 	display: flex;
-	margin-top: 75px;
-	margin-bottom: 75px;
+	margin: 10px 0;
 }
 
 .gallery-item {
