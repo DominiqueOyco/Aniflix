@@ -225,7 +225,7 @@ button{
 	position: relative;
 	margin: 50px auto;
 	padding: 15px 70px;
-	/*max-width: 50%;*/
+	max-width: 50%;
 	height: 445px;
 }
 
