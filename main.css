@@ -224,9 +224,9 @@ button{
 	background: rgba(0,0,0,0.5);
 	position: relative;
 	margin: 50px auto;
-	padding: 15px 70px;
+	padding: 15px 75px;
 	max-width: 50%;
-	height: 445px;
+	height: 500px;
 }
 
 #schedule-contents li{
