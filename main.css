@@ -142,7 +142,7 @@ button{
 .slideshow-container {
 	float: left;
 	vertical-align: middle;
-	max-width: 65%;
+	max-width: 63%;
 	position: relative;
 	margin: 50px auto;
 
@@ -296,7 +296,7 @@ button{
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1){
 	.slideshow-container{max-width: 100%}
-	/*.prev, .next, .text{display: none;}*/
+	.prev, .next, .text{display: none;}
 	.prev, .next, .text{font-size: 6px;}
 	.web-body{font-size:8px;}
 	/*#schedule-home{display:none;}*/
