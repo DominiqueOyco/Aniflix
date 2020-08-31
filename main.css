@@ -324,7 +324,7 @@ button{
 /*	.prev, .next, .text {font-size: 11px; display: none;}*/
 	.prev, .next, .text{font-size: 20px;}
 	.slideshow-container{max-width: 65%;}
-	#schedule-home{width: 450px; height: 700px;}
+	#schedule-home{width: 500px; height: 700px; padding: 15px 70px;}
 }
 
 /*THIS SECTION IS FOR THE SCHEDULE*/
