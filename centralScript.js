@@ -48,7 +48,7 @@ function showSlides(n) {
 var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"]
-var sunday = ["<br>", "<li>7:30PM - ONE PUNCH MAN</li>", "<br>", "<li>8:00PM - ROBIHACHI</li>", "<br>", "<li>8:30PM - UNSTOPPABLE HIGH KICK</li>", "<br>"];
+var sunday = ["<br>", "<li>7:30PM - HI SCORE GIRL</li>", "<br>", "<li>8:00PM - IXION SAGA DT</li>", "<br>", "<li>8:30PM - UNSTOPPABLE HIGH KICK</li>", "<br>"];
 var weekdays = ["<br>", "<li>7:00PM - POKEMON</li>", "<br>", "<li>7:30PM - ONE PIECE</li>", "<br>", "<li>8:00PM - GUNDAM SEED</li>", "<br>", "<li>8:30PM - THE DISASTROUS LIFE OF SAIKI K.</li>", "<br>"];
 var saturday = ["<br>", "<li>7:30PM - HI SCORE GIRL</li>", "<br>", "<li>8:00PM - IXION SAGA DT</li>", "<br>", "<li>8:30PM - UNSTOPPABLE HIGH KICK</li>", "<br>"];
 var dd = String(today.getDate()).padStart(2, '0');
