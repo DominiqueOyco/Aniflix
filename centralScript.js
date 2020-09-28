@@ -41,7 +41,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 
-  timer = setTimeout(showSlides, 7000); // Change image every 5 seconds
+  timer = setTimeout(showSlides, 7000); // Change image every 7 seconds
 }
 
 //this section is dedicated to the schedule-home section of the homepage
@@ -50,7 +50,7 @@ var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"]
 var sunday = ["<br>", "<li>7:30PM - ONE PUNCH MAN</li>", "<br>", "<li>8:00PM - ROBIHACHI</li>", "<br>", "<li>8:30PM - UNSTOPPABLE HIGH KICK</li>", "<br>"];
 var weekdays = ["<br>", "<li>7:00PM - POKEMON</li>", "<br>", "<li>7:30PM - ONE PIECE</li>", "<br>", "<li>8:00PM - GUNDAM SEED</li>", "<br>", "<li>8:30PM - THE DISASTROUS LIFE OF SAIKI K.</li>", "<br>"];
-var saturday = ["<br>", "<li>7:30PM - HANDA KUN</li>", "<br>", "<li>8:00PM - D-FRAG</li>", "<br>", "<li>8:30PM - UNSTOPPABLE HIGH KICK</li>", "<br>"];
+var saturday = ["<br>", "<li>7:30PM - HI SCORE GIRL</li>", "<br>", "<li>8:00PM - IXION SAGA DT</li>", "<br>", "<li>8:30PM - UNSTOPPABLE HIGH KICK</li>", "<br>"];
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
