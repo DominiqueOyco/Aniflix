@@ -148,7 +148,7 @@ button{
 	vertical-align: middle;
 	max-width: 100%;
 	position: relative;
-	margin: 50px auto;
+	margin: 5px auto;
 
 	/*margin: 25px auto;*/ /*margin: auto; centers the slideshow!*/
 }
@@ -161,8 +161,10 @@ button{
 	width: auto;
 	padding: 16px;
 	margin-top: -22px;
+	margin-left: 5px;
+	margin-right: 5px;
 	color: white;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.2);
 	font-weight: bold;
 	font-size: 18px;
 	transition: 0.6s ease;
