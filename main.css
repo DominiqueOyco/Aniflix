@@ -138,11 +138,15 @@ button{
 	vertical-align: middle;
 }
 
+.slide-bullet{
+	text-align: center;
+}
+
 /* Slideshow container */
 .slideshow-container {
 	float: left;
 	vertical-align: middle;
-	max-width: 60%;
+	max-width: 100%;
 	position: relative;
 	margin: 50px auto;
 
@@ -158,6 +162,7 @@ button{
 	padding: 16px;
 	margin-top: -22px;
 	color: white;
+	background-color: rgba(0,0,0,0.4);
 	font-weight: bold;
 	font-size: 18px;
 	transition: 0.6s ease;
@@ -191,8 +196,12 @@ button{
 	/*text-align: center;*/
 }
 
-.text h1, .text h2, .text p{
+.text h2, .text h4, .text p{
 	margin: 0 50px;
+}
+
+.text h4, p{
+	margin-bottom: 0.8rem;
 }
 
 /* The dots/bullets/indicators */
@@ -217,11 +226,9 @@ button{
 	max-height: 900px;
 }*/
 
-#schedule-home{
-	/*display: inline-block;*/
+/*#schedule-home{
 	float: right;
 	vertical-align: middle;
-	background: rgba(0,0,0,0.5);
 	position: relative;
 	margin: 50px auto;
 	padding: 15px 60px;
@@ -231,10 +238,11 @@ button{
 
 #schedule-contents li{
 	list-style-type: none;
-}
+}*/
 
 #schedule-contents a{
 	text-decoration: none;
+	text-align: center;
 	color: white;
 	font-size: 14px;
 }
@@ -291,29 +299,76 @@ button{
 }
 
 /* On smaller screens, decrease text size */
-@media only screen 
+/*@media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1){
-	.slideshow-container{max-width: 100%}
-	.prev, .next, .text{display: none;}
-	.prev, .next, .text{font-size: 6px;}
-	.web-body{font-size:8px;}
-	/*#schedule-home{display:none;}*/
-	#schedule-home{width: 5px; height: 100px; font-size: 8px;}
-}
-/*@media only screen and (max-width: 667px){
-	.slideshow-container{max-width: 100%}
-	.prev, .next, .text{display: none;}
-	.web-body{font-size:5px;}
-	#schedule-home{display:none;}
+	.slideshow-container{
+		max-width: 100%
+	}
+
+	.prev, .next, .text{
+		font-size: 1rem;
+	}
+
+	.web-body{
+		font-size:8px;
+	}
+
+	#schedule-home{
+		width: 5px; 
+		height: 100px; 
+		font-size: 2rem;
+	}
 }*/
 
-@media only screen and (max-width: 1080px){
-	.prev, .next, .text{font-size: 6px;}
-	.web-body{font-size: 8px;}
-	#schedule-home{width: 30px; height: 460px; font-size: 8px;}
+@media only screen and (max-width: 1000px){
+	.prev, .next,{
+		font-size: 1rem;
+	}
+
+	.text{
+		top: initial;
+		bottom: 36px;
+		transform: initial;
+	}
+
+	.text h2{
+		font-size: 1rem;
+	}
+
+	.text h4, p{
+		font-size: 0.8rem;
+	}
+	
+	.web-body{
+		font-size: 0.8rem;
+	}
+
+/*	#schedule-home{
+		margin: 50px auto;
+		padding: 20px 70px;
+		max-width: 50%;
+		font-size: 0.8rem;
+		height: 500px;*/
+	}
 }
+
+/*@media only screen and (max-width: 1080px){
+	.prev, .next, .text{
+		font-size: 6px;
+	}
+
+	.web-body{
+		font-size: 8px;
+	}
+
+	#schedule-home{
+		width: 30px; 
+		height: 460px; 
+		font-size: 8px;
+	}
+}*/
 
 @media only screen and (max-width: 1400px){
 	.prev, .next, .text{font-size: 10px;}
