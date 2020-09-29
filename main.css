@@ -148,9 +148,7 @@ button{
 	vertical-align: middle;
 	max-width: 100%;
 	position: relative;
-	margin: 5px auto;
-
-	/*margin: 25px auto;*/ /*margin: auto; centers the slideshow!*/
+	margin: 10px auto;
 }
 
 /* Next & previous buttons */
