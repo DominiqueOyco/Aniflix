@@ -352,9 +352,42 @@ button{
 		padding: 20px 70px;
 		max-width: 50%;
 		font-size: 0.8rem;
-		height: 500px;*/
-	}
+		height: 500px;
+	}*/
 }
+
+@media only screen and (max-width: 767px){
+	.prev, .next,{
+		font-size: 0.5rem;
+	}
+
+	.text{
+		top: initial;
+		bottom: 36px;
+		transform: initial;
+	}
+
+	.text h2{
+		font-size: 0.5rem;
+	}
+
+	.text h4, p{
+		font-size: 0.3rem;
+	}
+	
+	.web-body{
+		font-size: 0.3rem;
+	}
+
+/*	#schedule-home{
+		margin: 50px auto;
+		padding: 20px 70px;
+		max-width: 50%;
+		font-size: 0.8rem;
+		height: 500px;
+	}*/
+}
+
 
 /*@media only screen and (max-width: 1080px){
 	.prev, .next, .text{
@@ -372,17 +405,16 @@ button{
 	}
 }*/
 
-@media only screen and (max-width: 1400px){
+/*@media only screen and (max-width: 1400px){
 	.prev, .next, .text{font-size: 10px;}
 	#schedule-home{width: 100px; height: 460px; font-size: 14px;}
 }
 
 @media only screen and (min-width: 1920px) {
-/*	.prev, .next, .text {font-size: 11px; display: none;}*/
 	.prev, .next, .text{font-size: 20px;}
 	.slideshow-container{max-width: 65%;}
 	#schedule-home{width: 500px; height: 700px; padding: 15px 70px;}
-}
+}*/
 
 /*THIS SECTION IS FOR THE SCHEDULE*/
 .schedule-table{
