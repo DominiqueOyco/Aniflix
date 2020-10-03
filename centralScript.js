@@ -49,8 +49,7 @@ var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://occ-0-33-37.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/\
-AAABfbOU8mKtyRgZVrcJX81wOAhI4pwpIEnyIYMDN2tdxjV7g_iRrqKY57vSUWKNTCMj7cdgSjJ_RtcqL1IlkRlpvNN2cw.jpg?r=aed' width='341' height='192'>\
+var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://occ-0-33-37.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfbOU8mKtyRgZVrcJX81wOAhI4pwpIEnyIYMDN2tdxjV7g_iRrqKY57vSUWKNTCMj7cdgSjJ_RtcqL1IlkRlpvNN2cw.jpg?r=aed' width='341' height='192'>\
 6:45PM ONE PUNCH MAN</a>\
 <a class='gallery-item'><img src='images/hi-score-girl.jpg' width='341' height='192'>7:30PM HI SCORE GIRL</a>\
 <a class='gallery-item'><img src='images/ixion-saga-dt.jpg' width='341' height='192'>8:00PM IXION SAGA DT</a>\
@@ -67,8 +66,7 @@ _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='
 Ngj0hBa1ghsYPeBsdfMj4Nbf5MKsHMEnV9f7vKyf1V-b60hxhEL0XWdg6q0g.jpg?r=81c' width='341' height='192'>8:30PM THE DISASTROUS LIFE OF SAIKI K.</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://occ-0-33-37.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/\
-AAABfbOU8mKtyRgZVrcJX81wOAhI4pwpIEnyIYMDN2tdxjV7g_iRrqKY57vSUWKNTCMj7cdgSjJ_RtcqL1IlkRlpvNN2cw.jpg?r=aed' width='341' height='192'>\
+var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://occ-0-33-37.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfbOU8mKtyRgZVrcJX81wOAhI4pwpIEnyIYMDN2tdxjV7g_iRrqKY57vSUWKNTCMj7cdgSjJ_RtcqL1IlkRlpvNN2cw.jpg?r=aed' width='341' height='192'>\
 6:45PM ONE PUNCH MAN</a>\
 <a class='gallery-item'><img src='images/hi-score-girl.jpg' width='341' height='192'>7:30PM HI SCORE GIRL</a>\
 <a class='gallery-item'><img src='images/ixion-saga-dt.jpg' width='341' height='192'>8:00PM IXION SAGA DT</a>\
