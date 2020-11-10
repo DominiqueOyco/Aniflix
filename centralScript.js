@@ -52,7 +52,7 @@ var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "S
 var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/hi-score-girl.jpg' width='341' height='192'>7:30PM HI SCORE GIRL</a>\
 <a class='gallery-item'><img src='images/ixion-saga-dt.jpg' width='341' height='192'>8:00PM IXION SAGA DT</a>\
 <a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/616PtfF59vL._UR300,300_BL99_UR987,555_CLa%7C987,555%7C616PtfF59vL\
-.jpg%7C0,0,987,555+0,0,987,555_SX329_.jpg' width='341' height='192'>8:30PM UNSTOPPABLE HIGH KICK</a>\
+.jpg%7C0,0,987,555+0,0,987,555_SX329_.jpg' width='341' height='192'>8:30PM HIGH KICK THROUGH THE ROOF</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>7:00PM POKEMON</a>\
@@ -60,13 +60,13 @@ var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><
 _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>7:30PM ONE PIECE</a>\
 <a class='gallery-item'><img src='images/gsdestiny.jpg' width='341' height='192'>8:00PM GUNDAM SEED DESTINY</a>\
 <a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcMnPDGWeDHhf_b_psVFMl3DBPj1schm\
-Ngj0hBa1ghsYPeBsdfMj4Nbf5MKsHMEnV9f7vKyf1V-b60hxhEL0XWdg6q0g.jpg?r=81c' width='341' height='192'>8:30PM THE DISASTROUS LIFE OF SAIKI K.</a>\
+Ngj0hBa1ghsYPeBsdfMj4Nbf5MKsHMEnV9f7vKyf1V-b60hxhEL0XWdg6q0g.jpg?r=81c' width='341' height='192'>8:30PM THE PRINCE OF TENNIS</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/hi-score-girl.jpg' width='341' height='192'>7:30PM HI SCORE GIRL</a>\
 <a class='gallery-item'><img src='images/ixion-saga-dt.jpg' width='341' height='192'>8:00PM IXION SAGA DT</a>\
 <a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/616PtfF59vL._UR300,300_BL99_UR987,555_CLa%7C987,555%7C616PtfF59vL\
-.jpg%7C0,0,987,555+0,0,987,555_SX329_.jpg' width='341' height='192'>8:30PM UNSTOPPABLE HIGH KICK</a>\
+.jpg%7C0,0,987,555+0,0,987,555_SX329_.jpg' width='341' height='192'>8:30PM HIGH KICK THROUGH THE ROOF</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
