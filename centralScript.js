@@ -51,8 +51,8 @@ var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "S
 
 var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/hi-score-girl.jpg' width='341' height='192'>7:30PM HI SCORE GIRL</a>\
 <a class='gallery-item'><img src='images/ixion-saga-dt.jpg' width='341' height='192'>8:00PM IXION SAGA DT</a>\
-<a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/616PtfF59vL._UR300,300_BL99_UR987,555_CLa%7C987,555%7C616PtfF59vL\
-.jpg%7C0,0,987,555+0,0,987,555_SX329_.jpg' width='341' height='192'>8:30PM HIGH KICK THROUGH THE ROOF</a>\
+<a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/51kn%2B7NUtLL._SR600%2C315_PIWhiteStrip\
+%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>8:30PM HIGH KICK THROUGH THE ROOF</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>7:00PM POKEMON</a>\
@@ -65,8 +65,8 @@ Ngj0hBa1ghsYPeBsdfMj4Nbf5MKsHMEnV9f7vKyf1V-b60hxhEL0XWdg6q0g.jpg?r=81c' width='3
 
 var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/hi-score-girl.jpg' width='341' height='192'>7:30PM HI SCORE GIRL</a>\
 <a class='gallery-item'><img src='images/ixion-saga-dt.jpg' width='341' height='192'>8:00PM IXION SAGA DT</a>\
-<a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/616PtfF59vL._UR300,300_BL99_UR987,555_CLa%7C987,555%7C616PtfF59vL\
-.jpg%7C0,0,987,555+0,0,987,555_SX329_.jpg' width='341' height='192'>8:30PM HIGH KICK THROUGH THE ROOF</a>\
+<a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/51kn%2B7NUtLL._SR600%2C315_PIWhiteStrip\
+%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>8:30PM HIGH KICK THROUGH THE ROOF</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
