@@ -55,10 +55,14 @@ var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a 
 %2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>8:30PM HIGH KICK THROUGH THE ROOF</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>7:00PM POKEMON</a>\
+var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:00PM POKEMON</a>\
 <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
-_ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>7:30PM ONE PIECE</a>\
-<a class='gallery-item'><img src='images/gsdestiny.jpg' width='341' height='192'>8:00PM GUNDAM SEED DESTINY</a>\
+_ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>6:30PM ONE PIECE</a>\
+<a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSGuGunJ1q8DS1YJwcrkcd03BM3M\
+j3NklkDr_hswk6brMQcB4iUBCNCZeLW3sFAxYYgJOlGr2SXgx2IukQJ8sbsyr_w.jpg?r=9ee' width='341' height='192'>7:00PM AVATAR: THE LAST AIRBENDER</a>\
+<a class='gallery-item'><img src='images/samurai-champloo.jpg' width='341' height='192'>7:30PM SAMURAI CHAMPLOO</a>\
+<a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQIB6h1Hz-E86I9HSBytJgj7joTVL6Kt\
+btbq9RsfN2xaxpqa-mM0FidPZ7tIdcs3u7z6U7C7pWqvjYXj9o-Rxbegsfo.jpg?r=520' width='341' height='192'>8:00PM FULLMETAL ALCHEMIST</a>\
 <a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcMnPDGWeDHhf_b_psVFMl3DBPj1schm\
 Ngj0hBa1ghsYPeBsdfMj4Nbf5MKsHMEnV9f7vKyf1V-b60hxhEL0XWdg6q0g.jpg?r=81c' width='341' height='192'>8:30PM THE PRINCE OF TENNIS</a>\
 <a class='gallery-item'><img></a></div>"];
