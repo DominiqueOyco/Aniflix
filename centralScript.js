@@ -65,8 +65,8 @@ j3NklkDr_hswk6brMQcB4iUBCNCZeLW3sFAxYYgJOlGr2SXgx2IukQJ8sbsyr_w.jpg?r=9ee' width
 <a class='gallery-item'><img src='images/samurai-champloo.jpg' width='341' height='192'>7:30PM SAMURAI CHAMPLOO</a>\
 <a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQIB6h1Hz-E86I9HSBytJgj7joTVL6Kt\
 btbq9RsfN2xaxpqa-mM0FidPZ7tIdcs3u7z6U7C7pWqvjYXj9o-Rxbegsfo.jpg?r=520' width='341' height='192'>8:00PM FULLMETAL ALCHEMIST</a>\
-<a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcMnPDGWeDHhf_b_psVFMl3DBPj1schm\
-Ngj0hBa1ghsYPeBsdfMj4Nbf5MKsHMEnV9f7vKyf1V-b60hxhEL0XWdg6q0g.jpg?r=81c' width='341' height='192'>8:30PM THE PRINCE OF TENNIS</a>\
+<a class='gallery-item'><img src='https://img3.hulu.com/user/v3/artwork/d516f13f-40b3-4232-9c4b-0624c2ea7133?base_image_bucket_\
+name=image_manager&base_image=0696c4e8-0f1f-415a-ae43-4b0200ccb674&size=600x338&format=jpeg' width='341' height='192'>8:30PM THE PRINCE OF TENNIS</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/kids-on-a-slope.jpg'\
