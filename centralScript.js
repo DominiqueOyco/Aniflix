@@ -49,31 +49,24 @@ var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/\
-upload/oth/FunimationStoreFront/1289756/Latvian/1289756_Latvian_ShowMasterKeyArt_457de37e-deff-e611-8175-020165574d09.jpg'\
- width='341' height='192'>7:30PM GANGSTA</a>\
-<a class='gallery-item'><img src='images/arakawa.jpg' width='341' height='192'>8:00PM ARAKAWA UNDER THE BRIDGE</a>\
+var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://i.ytimg.com/vi/uCvCS_5U7MI/maxresdefault.jpg'\
+ width='341' height='192'>8:15PM PRICELESS</a>\
 <a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/51kn%2B7NUtLL._SR600%2C315_PIWhiteStrip\
-%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>8:30PM HIGH KICK THROUGH THE ROOF</a>\
+%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>9:30PM HIGH KICK THROUGH THE ROOF</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:00PM POKEMON</a>\
+var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:30PM POKEMON</a>\
 <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
-_ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>6:30PM ONE PIECE</a>\
-<a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSGuGunJ1q8DS1YJwcrkcd03BM3M\
-j3NklkDr_hswk6brMQcB4iUBCNCZeLW3sFAxYYgJOlGr2SXgx2IukQJ8sbsyr_w.jpg?r=9ee' width='341' height='192'>7:00PM AVATAR: THE LAST AIRBENDER</a>\
-<a class='gallery-item'><img src='images/samurai-champloo.jpg' width='341' height='192'>7:30PM SAMURAI CHAMPLOO</a>\
-<a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQIB6h1Hz-E86I9HSBytJgj7joTVL6Kt\
-btbq9RsfN2xaxpqa-mM0FidPZ7tIdcs3u7z6U7C7pWqvjYXj9o-Rxbegsfo.jpg?r=520' width='341' height='192'>8:00PM FULLMETAL ALCHEMIST</a>\
+_ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>7:00PM ONE PIECE</a>\
+<a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABV6EposZsW5JDA8wc_L0K1eElqLvX5ewIWP0cZ34tTO2x7rUPS06wZYx7DFkS0SMknHSeTjAyn4wsTIKyPlhUbLaz8Y.jpg?r=559'\
+ width='341' height='192'>7:30PM FULLMETAL ALCHEMIST BROTHERHOOD</a>\
 <a class='gallery-item'><img src='https://img3.hulu.com/user/v3/artwork/d516f13f-40b3-4232-9c4b-0624c2ea7133?base_image_bucket_\
-name=image_manager&base_image=0696c4e8-0f1f-415a-ae43-4b0200ccb674&size=600x338&format=jpeg' width='341' height='192'>8:30PM THE PRINCE OF TENNIS</a>\
+name=image_manager&base_image=0696c4e8-0f1f-415a-ae43-4b0200ccb674&size=600x338&format=jpeg' width='341' height='192'>8:00PM THE PRINCE OF TENNIS</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/kids-on-a-slope.jpg'\
- width='341' height='192'>7:30PM KIDS ON A SLOPE</a>\
-<a class='gallery-item'><img src='images/arakawa.jpg' width='341' height='192'>8:00PM ARAKAWA UNDER THE BRIDGE</a>\
+var saturday = ["<br>", "<a class='gallery-item'><img src='https://i.pinimg.com/originals/56/b7/67/56b767500ba3f94ddb8624795f9ec816.jpg' width='341' height='192'>8:15PM MONEY WAR</a>\
 <a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/51kn%2B7NUtLL._SR600%2C315_PIWhiteStrip\
-%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>8:30PM HIGH KICK THROUGH THE ROOF</a>\
+%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>9:30PM HIGH KICK THROUGH THE ROOF</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
