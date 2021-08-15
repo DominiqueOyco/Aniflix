@@ -49,10 +49,10 @@ var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://i.ytimg.com/vi/uCvCS_5U7MI/maxresdefault.jpg'\
- width='341' height='192'>8:15PM PRICELESS</a>\
+var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://www.lovehkfilm.com/panasia/aj6293/hero_2007.jpg'\
+ width='341' height='192'>8:00PM HERO</a>\
 <a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/51kn%2B7NUtLL._SR600%2C315_PIWhiteStrip\
-%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>9:30PM HIGH KICK THROUGH THE ROOF</a>\
+%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>9:10PM HIGH KICK THROUGH THE ROOF</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:30PM POKEMON</a>\
@@ -64,9 +64,9 @@ _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='
 name=image_manager&base_image=0696c4e8-0f1f-415a-ae43-4b0200ccb674&size=600x338&format=jpeg' width='341' height='192'>8:00PM THE PRINCE OF TENNIS</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<a class='gallery-item'><img src='https://i.pinimg.com/originals/56/b7/67/56b767500ba3f94ddb8624795f9ec816.jpg' width='341' height='192'>8:15PM MONEY WAR</a>\
+var saturday = ["<br>", "<a class='gallery-item'><img src='https://2.bp.blogspot.com/-eTzJlZTxFxc/VvdmKhBkK8I/AAAAAAAAD2k/XCD1a0HfRvApC0hbbWlJnfg6DPKAH32ug/w1200-h630-p-k-no-nu/My%2BLawyer.jpg' width='341' height='192'>8:00PM MY LAWYER, MR.JO</a>\
 <a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/51kn%2B7NUtLL._SR600%2C315_PIWhiteStrip\
-%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>9:30PM HIGH KICK THROUGH THE ROOF</a>\
+%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>9:10PM HIGH KICK THROUGH THE ROOF</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
