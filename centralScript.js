@@ -58,14 +58,13 @@ var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
 <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
 _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>7:15AM ONE PIECE</a>\
-<a class='gallery-item'><img src='https://img3.hulu.com/user/v3/artwork/ca21d947-e5b1-4c5d-b973-f638016b112c?base_image_bucket_name=image_manager&base_image=9ab1514f-b4b2-4c1c-8905-4268a709e12f&size=1200x630&format=jpeg'\
- width='341' height='192'>7:30PM MOBILE SUIT GUNDAM WING</a>\
+<a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUKfnRHxKo2_F24EmyNSKBqYF_YNQd7L66nZLaJjEeOehrGqt-TFp-1-tkBLQGS1xU_uM09vrWI85zpd6M7A4gwUk_4.jpg?r=c2e'\
+ width='341' height='192'>6:45PM BLACK BUTLER</a>\
 <a class='gallery-item'><img src='images/sket-dance.jpg' width='341' height='192'>7:15PM SKET DANCE</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<a class='gallery-item'><img src='https://2.bp.blogspot.com/-eTzJlZTxFxc/VvdmKhBkK8I/AAAAAAAAD2k/XCD1a0HfRvApC0hbbWlJnfg6DPKAH32ug/w1200-h630-p-k-no-nu/My%2BLawyer.jpg' width='341' height='192'>8:00PM MY LAWYER, MR.JO</a>\
-<a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/51kn%2B7NUtLL._SR600%2C315_PIWhiteStrip\
-%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>9:10PM HIGH KICK THROUGH THE ROOF</a>\
+var saturday = ["<br>", "<a class='gallery-item'><img src='images/Monthly-girls-Nozaki-kun.jpg' width='341' height='192'>8:00PM MONTHLY GIRLS NOZAKI KUN</a>\
+<a class='gallery-item'><img src='https://2.bp.blogspot.com/-eTzJlZTxFxc/VvdmKhBkK8I/AAAAAAAAD2k/XCD1a0HfRvApC0hbbWlJnfg6DPKAH32ug/w1200-h630-p-k-no-nu/My%2BLawyer.jpg' width='341' height='192'>9:00PM MY LAWYER, MR.JO</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
