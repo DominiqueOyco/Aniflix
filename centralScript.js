@@ -49,10 +49,11 @@ var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://www.lovehkfilm.com/panasia/aj6293/hero_2007.jpg'\
- width='341' height='192'>8:00PM HERO</a>\
-<a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/I/51kn%2B7NUtLL._SR600%2C315_PIWhiteStrip\
-%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg' width='341' height='192'>9:10PM HIGH KICK THROUGH THE ROOF</a>\
+var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2'\
+ width='341' height='192'>8:00PM DOG & SCISSORS</a>\
+<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>8:30PM DOG & SCISSORS</a>\
+<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>9:00PM DOG & SCISSORS</a>\
+<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>9:30PM DOG & SCISSORS</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
@@ -60,11 +61,13 @@ var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><
 _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>7:15AM ONE PIECE</a>\
 <a class='gallery-item'><img src='https://occ-0-37-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUKfnRHxKo2_F24EmyNSKBqYF_YNQd7L66nZLaJjEeOehrGqt-TFp-1-tkBLQGS1xU_uM09vrWI85zpd6M7A4gwUk_4.jpg?r=c2e'\
  width='341' height='192'>6:45PM BLACK BUTLER</a>\
-<a class='gallery-item'><img src='images/sket-dance.jpg' width='341' height='192'>7:15PM SKET DANCE</a>\
+<a class='gallery-item'><img src='https://img1.ak.crunchyroll.com/i/spire2/b3b313c3f65e9595ef69742d53cd622e1282761740_full.jpg' width='341' height='192'>7:15PM HAYATE THE COMBAT BUTLER</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<a class='gallery-item'><img src='images/Monthly-girls-Nozaki-kun.jpg' width='341' height='192'>8:00PM MONTHLY GIRLS NOZAKI KUN</a>\
-<a class='gallery-item'><img src='https://2.bp.blogspot.com/-eTzJlZTxFxc/VvdmKhBkK8I/AAAAAAAAD2k/XCD1a0HfRvApC0hbbWlJnfg6DPKAH32ug/w1200-h630-p-k-no-nu/My%2BLawyer.jpg' width='341' height='192'>9:00PM MY LAWYER, MR.JO</a>\
+var saturday = ["<br>", "<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>8:00PM DOG & SCISSORS</a>\
+<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>8:30PM DOG & SCISSORS</a>\
+<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>9:00PM DOG & SCISSORS</a>\
+<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>9:30PM DOG & SCISSORS</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
