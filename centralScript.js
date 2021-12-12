@@ -49,11 +49,11 @@ var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2'\
- width='341' height='192'>8:00PM DOG & SCISSORS</a>\
-<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>8:30PM DOG & SCISSORS</a>\
-<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>9:00PM DOG & SCISSORS</a>\
-<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>9:30PM DOG & SCISSORS</a>\
+var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://i.pinimg.com/originals/2e/ca/b0/2ecab022c987fd8611a055e50fad22e9.jpg'\
+ width='341' height='192'>8:00PM TADA NEVER FALLS IN LOVE</a>\
+<a class='gallery-item'><img src='https://i.pinimg.com/originals/2e/ca/b0/2ecab022c987fd8611a055e50fad22e9.jpg' width='341' height='192'>8:30PM TADA NEVER FALLS IN LOVE</a>\
+<a class='gallery-item'><img src='https://i.pinimg.com/originals/2e/ca/b0/2ecab022c987fd8611a055e50fad22e9.jpg' width='341' height='192'>9:00PM TADA NEVER FALLS IN LOVE</a>\
+<a class='gallery-item'><img src='https://i.pinimg.com/originals/2e/ca/b0/2ecab022c987fd8611a055e50fad22e9.jpg' width='341' height='192'>9:30PM TADA NEVER FALLS IN LOVE</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
@@ -64,10 +64,11 @@ _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='
 <a class='gallery-item'><img src='https://img1.ak.crunchyroll.com/i/spire2/b3b313c3f65e9595ef69742d53cd622e1282761740_full.jpg' width='341' height='192'>7:15PM HAYATE THE COMBAT BUTLER</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>8:00PM DOG & SCISSORS</a>\
-<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>8:30PM DOG & SCISSORS</a>\
-<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>9:00PM DOG & SCISSORS</a>\
-<a class='gallery-item'><img src='https://i2.wp.com/img1.ak.crunchyroll.com/i/spire4/4b8384b4355a57e0493d6b0f24e054161372345068_full.jpg?zoom=2' width='341' height='192'>9:30PM DOG & SCISSORS</a>\
+var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://i.pinimg.com/originals/2e/ca/b0/2ecab022c987fd8611a055e50fad22e9.jpg'\
+ width='341' height='192'>8:00PM TADA NEVER FALLS IN LOVE</a>\
+<a class='gallery-item'><img src='https://i.pinimg.com/originals/2e/ca/b0/2ecab022c987fd8611a055e50fad22e9.jpg' width='341' height='192'>8:30PM TADA NEVER FALLS IN LOVE</a>\
+<a class='gallery-item'><img src='https://i.pinimg.com/originals/2e/ca/b0/2ecab022c987fd8611a055e50fad22e9.jpg' width='341' height='192'>9:00PM TADA NEVER FALLS IN LOVE</a>\
+<a class='gallery-item'><img src='https://i.pinimg.com/originals/2e/ca/b0/2ecab022c987fd8611a055e50fad22e9.jpg' width='341' height='192'>9:30PM TADA NEVER FALLS IN LOVE</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
