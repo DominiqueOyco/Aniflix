@@ -49,11 +49,11 @@ var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://m.media-amazon.com/images/I/61aNX8HY84L._SL1280_.jpg'\
- width='341' height='192'>8:00PM PLACE TO PLACE</a>\
-<a class='gallery-item'><img src='https://m.media-amazon.com/images/I/61aNX8HY84L._SL1280_.jpg' width='341' height='192'>8:30PM PLACE TO PLACE</a>\
-<a class='gallery-item'><img src='https://m.media-amazon.com/images/I/61aNX8HY84L._SL1280_.jpg' width='341' height='192'>9:00PM PLACE TO PLACE</a>\
-<a class='gallery-item'><img src='https://m.media-amazon.com/images/I/61aNX8HY84L._SL1280_.jpg' width='341' height='192'>9:30PM PLACE TO PLACE</a>\
+var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png'\
+ width='341' height='192'>8:00PM DOMESTIC GIRLFRIEND</a>\
+<a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>8:30PM DOMESTIC GIRLFRIEND</a>\
+<a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:00PM DOMESTIC GIRLFRIEND</a>\
+<a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:30PM DOMESTIC GIRLFRIEND</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
@@ -64,11 +64,11 @@ _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='
 <a class='gallery-item'><img src='https://img1.ak.crunchyroll.com/i/spire2/b3b313c3f65e9595ef69742d53cd622e1282761740_full.jpg' width='341' height='192'>7:15PM HAYATE THE COMBAT BUTLER</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://m.media-amazon.com/images/I/61aNX8HY84L._SL1280_.jpg'\
- width='341' height='192'>8:00PM PLACE TO PLACE</a>\
-<a class='gallery-item'><img src='https://m.media-amazon.com/images/I/61aNX8HY84L._SL1280_.jpg' width='341' height='192'>8:30PM PLACE TO PLACE</a>\
-<a class='gallery-item'><img src='https://m.media-amazon.com/images/I/61aNX8HY84L._SL1280_.jpg' width='341' height='192'>9:00PM PLACE TO PLACE</a>\
-<a class='gallery-item'><img src='https://m.media-amazon.com/images/I/61aNX8HY84L._SL1280_.jpg' width='341' height='192'>9:30PM PLACE TO PLACE</a>\
+var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png'\
+ width='341' height='192'>8:00PM DOMESTIC GIRLFRIEND</a>\
+<a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>8:30PM DOMESTIC GIRLFRIEND</a>\
+<a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:00PM DOMESTIC GIRLFRIEND</a>\
+<a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:30PM DOMESTIC GIRLFRIEND</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
