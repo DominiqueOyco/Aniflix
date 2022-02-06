@@ -511,6 +511,14 @@ button{
 	}
 }
 
+/*push footer on the bottom when content is short*/
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 footer{
 	clear: both;
     background: black;
