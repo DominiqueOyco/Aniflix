@@ -49,12 +49,16 @@ var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png'\
- width='341' height='192'>8:00PM DOMESTIC GIRLFRIEND</a>\
-<a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>8:30PM DOMESTIC GIRLFRIEND</a>\
-<a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:00PM DOMESTIC GIRLFRIEND</a>\
-<a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:30PM DOMESTIC GIRLFRIEND</a>\
+var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/S/pv-target-images/7d180157b50c4264ad1f\
+a33deba3b1898f09ffa22ca26621b2f70b66f77aba68._UY500_UX667_RI_V_TTW_.jpg' width='341' height='192'>8:00PM PERSONA 3</a>\
 <a class='gallery-item'><img></a></div>"];
+
+// var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png'\
+//  width='341' height='192'>8:00PM DOMESTIC GIRLFRIEND</a>\
+// <a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>8:30PM DOMESTIC GIRLFRIEND</a>\
+// <a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:00PM DOMESTIC GIRLFRIEND</a>\
+// <a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:30PM DOMESTIC GIRLFRIEND</a>\
+// <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
 <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
