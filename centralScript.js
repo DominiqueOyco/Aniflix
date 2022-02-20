@@ -53,11 +53,11 @@ var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a 
 a33deba3b1898f09ffa22ca26621b2f70b66f77aba68._UY500_UX667_RI_V_TTW_.jpg' width='341' height='192'>8:00PM PERSONA 3</a>\
 <a class='gallery-item'><img></a></div>"];
 
-// var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png'\
-//  width='341' height='192'>8:00PM DOMESTIC GIRLFRIEND</a>\
-// <a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>8:30PM DOMESTIC GIRLFRIEND</a>\
-// <a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:00PM DOMESTIC GIRLFRIEND</a>\
-// <a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:30PM DOMESTIC GIRLFRIEND</a>\
+// var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/uzaki.jpg'\
+//  width='341' height='192'>8:00PM UZAKI CHAN WANTS TO HANG OUT</a>\
+// <a class='gallery-item'><img src='images/uzaki.jpg' width='341' height='192'>8:30PM UZAKI CHAN WANTS TO HANG OUT</a>\
+// <a class='gallery-item'><img src='images/uzaki.jpg' width='341' height='192'>9:00PM UZAKI CHAN WANTS TO HANG OUT</a>\
+// <a class='gallery-item'><img src='images/uzaki.jpg' width='341' height='192'>9:30PM UZAKI CHAN WANTS TO HANG OUT</a>\
 // <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
@@ -68,16 +68,16 @@ _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='
 <a class='gallery-item'><img src='https://img1.ak.crunchyroll.com/i/spire2/b3b313c3f65e9595ef69742d53cd622e1282761740_full.jpg' width='341' height='192'>7:15PM HAYATE THE COMBAT BUTLER</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/S/pv-target-images/7d180157b50c4264ad1f\
-a33deba3b1898f09ffa22ca26621b2f70b66f77aba68._UY500_UX667_RI_V_TTW_.jpg' width='341' height='192'>8:00PM PERSONA 3</a>\
-<a class='gallery-item'><img></a></div>"];
-
+// movie schedule:
 // var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/S/pv-target-images/7d180157b50c4264ad1f\
 // a33deba3b1898f09ffa22ca26621b2f70b66f77aba68._UY500_UX667_RI_V_TTW_.jpg' width='341' height='192'>8:00PM PERSONA 3</a>\
-// <a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>8:30PM DOMESTIC GIRLFRIEND</a>\
-// <a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:00PM DOMESTIC GIRLFRIEND</a>\
-// <a class='gallery-item'><img src='https://static.hidive.com/news/2020/06/domestic-girlfriend-uncensored-hidive-836x470.png' width='341' height='192'>9:30PM DOMESTIC GIRLFRIEND</a>\
 // <a class='gallery-item'><img></a></div>"];
+
+var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/uzaki.jpg' width='341' height='192'>8:00PM UZAKI CHAN WANTS TO HANG OUT 3</a>\
+<a class='gallery-item'><img src='images/uzaki.jpg' width='341' height='192'>8:30PM UZAKI CHAN WANTS TO HANG OUT</a>\
+<a class='gallery-item'><img src='images/uzaki.jpg' width='341' height='192'>9:00PM UZAKI CHAN WANTS TO HANG OUT</a>\
+<a class='gallery-item'><img src='images/uzaki.jpg' width='341' height='192'>9:30PM UZAKI CHAN WANTS TO HANG OUT</a>\
+<a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
