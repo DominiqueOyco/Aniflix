@@ -57,8 +57,8 @@ var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
 <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
 _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>7:15AM ONE PIECE</a>\
-<a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1291898/Latvian/1291898_Latvian_ShowMasterKeyArt_92190267-deff-e611-8175-020165574d09.jpg'\
- width='341' height='192'>6:45PM NORAGAMI</a>\
+<a class='gallery-item'><img src='images/the-world-god-only-knows.jpg'\
+ width='341' height='192'>6:45PM THE WORLD GOD ONLY KNOWS</a>\
 <a class='gallery-item'><img src='https://img1.ak.crunchyroll.com/i/spire2/b3b313c3f65e9595ef69742d53cd622e1282761740_full.jpg' width='341' height='192'>7:15PM HAYATE THE COMBAT BUTLER</a>\
 <a class='gallery-item'><img></a></div>"];
 
