@@ -56,8 +56,8 @@ var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
 <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
 _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>7:15AM ONE PIECE</a>\
-<a class='gallery-item'><img src='images/the-world-god-only-knows.jpg'\
- width='341' height='192'>6:45PM THE WORLD GOD ONLY KNOWS</a>\
+<a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1347144/Latvian/1347144_Latvian_ShowMasterKeyArt_e173306c-a478-e711-8175-020165574d09.jpg'\
+ width='341' height='192'>6:45PM SPICE AND WOLF</a>\
 <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1347011/Latvian/1347011_Latvian_ShowMasterKeyArt_3b4edd8a-a478-e711-8175-020165574d09.jpg' width='341' height='192'>7:15PM SOUL EATER</a>\
 <a class='gallery-item'><img></a></div>"];
 
