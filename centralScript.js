@@ -49,8 +49,8 @@ var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/qwaser.jpg' width='341' height='192'>8:00PM THE QWASER OF STIGMATA</a>\
-<a class='gallery-item'><img src='images/qwaser.jpg' width='341' height='192'>8:30PM THE QWASER OF STIGMATA</a>\
+var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://i.ytimg.com/vi/ZlK_5P4k2Js/maxresdefault.jpg' width='341' height='192'>8:00PM DON'T TOY WITH ME MISS NAGATORO</a>\
+<a class='gallery-item'><img src='https://i.ytimg.com/vi/ZlK_5P4k2Js/maxresdefault.jpg' width='341' height='192'>8:30PM DON'T TOY WITH ME, MISS NAGATORO</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
@@ -66,8 +66,8 @@ _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='
 // a33deba3b1898f09ffa22ca26621b2f70b66f77aba68._UY500_UX667_RI_V_TTW_.jpg' width='341' height='192'>8:00PM PERSONA 3</a>\
 // <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/qwaser.jpg' width='341' height='192'>8:00PM THE QWASER OF STIGMATA</a>\
-<a class='gallery-item'><img src='images/qwaser.jpg' width='341' height='192'>8:30PM THE QWASER OF STIGMATA</a>\
+var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://i.ytimg.com/vi/ZlK_5P4k2Js/maxresdefault.jpg' width='341' height='192'>8:00PM DON'T TOY WITH ME MISS NAGATORO</a>\
+<a class='gallery-item'><img src='https://i.ytimg.com/vi/ZlK_5P4k2Js/maxresdefault.jpg' width='341' height='192'>8:30PM DON'T TOY WITH ME, MISS NAGATORO</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
