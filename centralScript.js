@@ -49,16 +49,16 @@ var today = new Date();
 var now = today.getDay();
 var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://i.ytimg.com/vi/ZlK_5P4k2Js/maxresdefault.jpg' width='341' height='192'>8:00PM DON'T TOY WITH ME MISS NAGATORO</a>\
-<a class='gallery-item'><img src='https://i.ytimg.com/vi/ZlK_5P4k2Js/maxresdefault.jpg' width='341' height='192'>8:30PM DON'T TOY WITH ME, MISS NAGATORO</a>\
+var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://beta.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/eb01914871243e0373a733c66e340897.jpeg' width='341' height='192'>8:00PM TSUKIMICHI -Moonlit Fantasy-</a>\
+<a class='gallery-item'><img src='https://beta.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/eb01914871243e0373a733c66e340897.jpeg' width='341' height='192'>8:30PM TSUKIMICHI -Moonlit Fantasy-</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
 <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
 _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>7:15AM ONE PIECE</a>\
-<a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1347144/Latvian/1347144_Latvian_ShowMasterKeyArt_e173306c-a478-e711-8175-020165574d09.jpg'\
- width='341' height='192'>6:45PM SPICE AND WOLF</a>\
-<a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1347011/Latvian/1347011_Latvian_ShowMasterKeyArt_3b4edd8a-a478-e711-8175-020165574d09.jpg' width='341' height='192'>7:15PM SOUL EATER</a>\
+<a class='gallery-item'><img src='https://beta.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/6865d37e97e8f0084e5f65c6b3e91b2b.jpeg'\
+ width='341' height='192'>6:45PM GTO THE ANIMATION</a>\
+<a class='gallery-item'><img src='https://beta.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/0273e80242d80b0218f640e038269c18.jpeg' width='341' height='192'>7:15PM BLACK CLOVER</a>\
 <a class='gallery-item'><img></a></div>"];
 
 // movie schedule:
@@ -66,8 +66,8 @@ _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='
 // a33deba3b1898f09ffa22ca26621b2f70b66f77aba68._UY500_UX667_RI_V_TTW_.jpg' width='341' height='192'>8:00PM PERSONA 3</a>\
 // <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://i.ytimg.com/vi/ZlK_5P4k2Js/maxresdefault.jpg' width='341' height='192'>8:00PM DON'T TOY WITH ME MISS NAGATORO</a>\
-<a class='gallery-item'><img src='https://i.ytimg.com/vi/ZlK_5P4k2Js/maxresdefault.jpg' width='341' height='192'>8:30PM DON'T TOY WITH ME, MISS NAGATORO</a>\
+var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://beta.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/eb01914871243e0373a733c66e340897.jpeg' width='341' height='192'>8:00PM TSUKIMICHI -Moonlit Fantasy-</a>\
+<a class='gallery-item'><img src='https://beta.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/eb01914871243e0373a733c66e340897.jpeg' width='341' height='192'>8:30PM TSUKIMICHI -Moonlit Fantasy-</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
