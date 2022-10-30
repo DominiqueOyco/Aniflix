@@ -57,9 +57,9 @@ var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a 
 // <a class='gallery-item'><img src='https://beta.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/089567220a1fb7b5a9752d9227848650.jpeg' width='341' height='192'>8:30PM Isekai Cheat Magician</a>\
 // <a class='gallery-item'><img></a></div>"];
 
-var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:45AM POKEMON</a>\
+var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:00AM POKEMON</a>\
 <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
-_ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>7:15AM ONE PIECE</a>\
+_ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>6:25AM ONE PIECE</a>\
 <a class='gallery-item'><img src='https://beta.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/5140d654f989f907275627403326d7be.jpeg'\
  width='341' height='192'>6:45PM GUNDAM BUILD FIGHTERS</a>\
 <a class='gallery-item'><img src='https://beta.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/0273e80242d80b0218f640e038269c18.jpeg' width='341' height='192'>7:15PM BLACK CLOVER</a>\
