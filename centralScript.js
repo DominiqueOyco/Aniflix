@@ -69,8 +69,8 @@ _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='
 // var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/55106611f3f44e55cb25b4da172baf2a.jpeg' width='341' height='192'>8:00PM DRESS UP DARLING</a>\
 // <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/55106611f3f44e55cb25b4da172baf2a.jpeg' width='341' height='192'>8:00PM DRESS UP DARLING</a>\
-<a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/55106611f3f44e55cb25b4da172baf2a.jpeg' width='341' height='192'>8:30PM DRESS UP DARLING</a>\
+var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/vermeil.jpg' width='341' height='192'>8:00PM VERMEIL IN GOLD</a>\
+<a class='gallery-item'><img src='images/vermeil.jpg' width='341' height='192'>8:30PM VERMEIL IN GOLD</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
