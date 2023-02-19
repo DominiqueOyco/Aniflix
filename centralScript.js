@@ -60,9 +60,15 @@ var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:00AM POKEMON</a>\
 <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
 _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>6:25AM ONE PIECE</a>\
-<a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/9daa2f17d7ad2727d72fdeaae6e232de.jpeg'\
- width='341' height='192'>6:45PM ATTACK ON TITAN</a>\
+<a class='gallery-item'><img></a>\
 <a class='gallery-item'><img></a></div>"];
+
+// var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:00AM POKEMON</a>\
+// <a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
+// _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>6:25AM ONE PIECE</a>\
+// <a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/9daa2f17d7ad2727d72fdeaae6e232de.jpeg'\
+//  width='341' height='192'>6:45PM ATTACK ON TITAN</a>\
+// <a class='gallery-item'><img></a></div>"];
 
 // movie schedule:
 // var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/55106611f3f44e55cb25b4da172baf2a.jpeg' width='341' height='192'>8:00PM DRESS UP DARLING</a>\
