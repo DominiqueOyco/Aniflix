@@ -53,8 +53,8 @@ var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "S
 // var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://images-na.ssl-images-amazon.com/images/S/pv-target-images/afa52b62887ed55475d095a8e18c5610b2444d28beb5b6ee2f322e6613374bad._V_SX1100_.jpg' width='341' height='192'>8:00PM THE BOYS</a>\
 // <a class='gallery-item'><img></a></div>"];
 
-var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/6bcfad7c9dbc77275fe7ab4744d91910.jpe' width='341' height='192'>8:00PM THE HIDDEN DUNGEON ONLY I CAN ENTER</a>\
-<a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/6bcfad7c9dbc77275fe7ab4744d91910.jpe' width='341' height='192'>8:30PM THE HIDDEN DUNGEON ONLY I CAN ENTER</a>\
+var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/79950ae0645a94f52f3d00636df609ed.jpe' width='341' height='192'>8:00PM TONIKAWA: OVER THE MOON FOR YOU</a>\
+<a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/79950ae0645a94f52f3d00636df609ed.jpe' width='341' height='192'>8:30PM TONIKAWA: OVER THE MOON FOR YOU</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:00AM POKEMON</a>\
@@ -74,8 +74,8 @@ _ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='
 // var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/55106611f3f44e55cb25b4da172baf2a.jpeg' width='341' height='192'>8:00PM DRESS UP DARLING</a>\
 // <a class='gallery-item'><img></a></div>"];
 
-var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/6bcfad7c9dbc77275fe7ab4744d91910.jpe' width='341' height='192'>8:00PM THE HIDDEN DUNGEON ONLY I CAN ENTER</a>\
-<a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/6bcfad7c9dbc77275fe7ab4744d91910.jpe' width='341' height='192'>8:30PM THE HIDDEN DUNGEON ONLY I CAN ENTER</a>\
+var saturday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/79950ae0645a94f52f3d00636df609ed.jpe' width='341' height='192'>8:00PM TONIKAWA: OVER THE MOON FOR YOU</a>\
+<a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/79950ae0645a94f52f3d00636df609ed.jpe' width='341' height='192'>8:30PM TONIKAWA: OVER THE MOON FOR YOU</a>\
 <a class='gallery-item'><img></a></div>"];
 
 var dd = String(today.getDate()).padStart(2, '0');
