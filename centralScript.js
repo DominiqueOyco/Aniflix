@@ -57,9 +57,8 @@ var sunday = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a 
 <a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/f6d76492f7493e633aac8f7bb0da3228.jpe' width='341' height='192'>8:30PM SCIENCE FELL IN LOVE SO I TRIED TO PROVE IT</a>\
 <a class='gallery-item'><img></a></div>"];
 
-var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:00AM POKEMON</a>\
-<a class='gallery-item'><img src='https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1319704/Latvian/1319704_Latvian\
-_ShowMasterKeyArt_2f12eb78-deff-e611-8175-020165574d09.jpg' width='341' height='192'>6:25AM ONE PIECE</a>\
+var weekdays = ["<br>", "<div class='gallery'><a class='gallery-item'><img></a><a class='gallery-item'><img src='images/pokemon.jpg' width='341' height='192'>6:00PM POKEMON</a>\
+<a class='gallery-item'><img src='https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/dcafd7710118830a6185f44f9667fe0c.jpe' width='341' height='192'>6:25PM THAT TIME I GOT REINCARNATED AS A SLIME</a>\
 <a class='gallery-item'><img></a>\
 <a class='gallery-item'><img></a></div>"];
 
