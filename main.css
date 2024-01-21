@@ -520,11 +520,14 @@ button{
 }
 
 footer{
+	position: fixed;
 	clear: both;
-    background: black;
+  background: black;
 	color: white;
 	text-align: center;
-	height: 100%;
+
+	bottom: 0;
+	height: 10%;
 	width: 100%;
 	margin: auto;
 	padding: 15px;
