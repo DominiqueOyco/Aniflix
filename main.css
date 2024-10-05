@@ -144,8 +144,10 @@ button{
 
 /* Slideshow container */
 .slideshow-container {
-	float: left;
+	float: center;
+	/*margin: 0px auto;*/
 	vertical-align: middle;
+	/*max-height: 100vw;*/
 	max-width: 100%;
 	position: relative;
 	margin: 10px auto;
@@ -530,7 +532,7 @@ footer{
 	height: 10%;
 	width: 100%;
 	margin: auto;
-	padding: 15px;
+	padding: 20px;
 	border-bottom: black 3px solid;
 }
 
