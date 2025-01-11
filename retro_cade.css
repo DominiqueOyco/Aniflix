@@ -4,7 +4,7 @@ html{
 
 header{
     background: black;
-	font-family: Helvetica;
+	font-family: DejaVu Sans Mono;
 /*	margin-top: -50px;
 	margin-left: -150px;
 	margin-right: -150px;
@@ -26,8 +26,9 @@ header ul{
 header li{
 	float: center;
 	display: inline-block;
-	margin-left: 30px;
-	padding: 0 5px;
+	margin-top: 20px;
+	margin-left: 90px;
+	padding: 0 10px;
 }
 
 header li a{
@@ -47,7 +48,7 @@ header .weblogo h1{
 
 header .weblogo h1 a{
 	font-size: 30px;
-	color: red;
+	color: white;
 	text-decoration: none;
 }
 
@@ -58,7 +59,7 @@ header nav{
 
 header li a:hover{
 	background-color: black;
-	color: red;
+	color: white;
 }
 
 .header-search {
@@ -76,19 +77,19 @@ body{
 /*	margin-left: 7em;
 	margin-right: 7em;*/
 	margin: auto;
-	background: #272626;
-	color: white;
-	font-family: Helvetica;
+	background: #edf550;
+	color: black;
+	font-family: DejaVu Sans Mono;
 	overflow-x: scroll;
 	overflow-y: scroll;
 }
 
 button{
-	font-family: Helvetica
-	font-size: 24px;
+	font-family: DejaVu Sans Mono;
+	font-size: 18px;
 	font-weight: bold;
-	background: #272626;
-	color: white;	
+	background: #edf550;
+	color: black;	
 }
 
 .web-body{
@@ -245,7 +246,7 @@ button{
 #schedule-contents a{
 	text-decoration: none;
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 14px;
 }
 
@@ -426,6 +427,7 @@ button{
 
 /*THIS SECTION IS FOR THE SCHEDULE*/
 .schedule-table{
+	height:1000px;
 	border-collapse: separate; 
 	border-spacing: 30px 20px
 }
@@ -460,7 +462,7 @@ button{
     background: black;
 	color: white;
 	text-align: center;
-	font-family: Helvetica;
+	font-family: DejaVu Sans Mono;
 	padding: 15px;	
 }
 
@@ -522,21 +524,24 @@ button{
 }
 
 footer{
-	position: fixed;
 	clear: both;
   background: black;
 	color: white;
 	text-align: center;
 
 	bottom: 0;
-	height: 10%;
+	height: auto;
 	width: 100%;
 	margin: auto;
 	padding: 20px;
-	border-bottom: black 3px solid;
+	border-bottom: black 9px solid;
 }
 
 footer img{
 	display: block;	
+	border: 0;
+	width: 268px;
+	height: 87px;
+	background: black;
 	margin: 10px auto 20px;
 }
