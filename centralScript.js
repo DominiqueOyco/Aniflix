@@ -44,7 +44,7 @@ function showSlides(n) {
   timer = setTimeout(showSlides, 7000); // Change image every 7 seconds
 }
 
-//this section is dedicated to the schedule-home section of the homepage
+// // this section is dedicated to the schedule-home section of the homepage
 // var today = new Date();
 // var now = today.getDay();
 // var days = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
