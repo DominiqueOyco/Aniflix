@@ -62,10 +62,65 @@ header li a:hover {
 	float: right;
 }
 
+.menu-index-items {
+	display: flex;
+	justify-content: space-between;
+	float: right;
+}
+
+.hamburger {
+	display: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+	float: right;
+	margin-bottom: 15px;
+	user-select: none;
+}
+
 .container {
 	width: 80%;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+	.hamburger {
+		display: block;
+	}
+
+	/* .menu-index-items {
+		display: none;
+	} */
+	.menu-index-items {
+		/* flex-direction: column;
+		background: #444;
+		position: absolute;
+		top: 60px;
+		right: 1rem;
+		width: 200px;
+		padding: 1rem;
+		display: none;
+		border-radius: 8px; */
+
+		display: none;
+		position: absolute;
+		top: 60px;
+		right: 1rem;
+		background: #444;
+		flex-direction: column;
+		width: 150px;
+		padding: 1rem;
+		border-radius: 8px;
+	}
+
+	.menu-index-items.show {
+		display: flex;
+	}
+
+	.menu-toggle:checked+.hamburger+.menu-index-items {
+		display: flex;
+	}
 }
 
 html,
@@ -83,7 +138,8 @@ body {
 }
 
 button {
-	font-family: Helvetica font-size: 24px;
+	font-family: Helvetica;
+	font-size: 24px;
 	font-weight: bold;
 	background: #272626;
 	color: white;
