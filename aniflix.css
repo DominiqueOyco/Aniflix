@@ -578,10 +578,15 @@ p {
 	font-size: 15px;
 }
 
+.schedule-body{
+	height: 100%;
+}
+
 .schedule-table {
-	height: 1000px;
+	width: 75%;
 	border-collapse: separate;
-	border-spacing: 30px 20px
+	border-spacing: 30px 50px;
+	margin-bottom: 10%;
 }
 
 .schedule-table td {
