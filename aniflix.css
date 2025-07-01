@@ -167,6 +167,10 @@ button {
 	overflow: auto;
 }
 
+.bar-item-button{
+	font-size: 15px;
+}
+
 /*#main-highlight{
 	background: #212121;
 	position: relative;
@@ -211,6 +215,7 @@ button {
 
 .slide-bullet {
 	text-align: center;
+	margin-top: -6%;
 }
 
 /* Slideshow container */
@@ -569,6 +574,10 @@ p {
 }*/
 
 /*THIS SECTION IS FOR THE SCHEDULE*/
+.bar-item-button{
+	font-size: 15px;
+}
+
 .schedule-table {
 	height: 1000px;
 	border-collapse: separate;
@@ -665,19 +674,17 @@ p {
 
 footer {
 	display: flex;
+	flex-direction: column;
 	clear: both;
 	background: black;
 	color: white;
 	text-align: center;
-	position: absolute;
-	margin-top: auto;
+	position: relative;
 	bottom: 0;
+	margin-top: auto;
 	width: 100%;
-	margin: auto;
-	margin-bottom: auto;
 	padding: 20px;
 	border-bottom: black 9px solid;
-	flex-direction: column;
 	z-index: 1;
 }
 
