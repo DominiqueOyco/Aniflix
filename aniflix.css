@@ -439,22 +439,50 @@ p {
 }
 
 .show-container {
-	max-width: 100%;
-	height: auto;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.show-row-1 {
+.show-body{
+	scroll-behavior: smooth;
+	position: relative;
+	height: 100%;
+	top: 10%;
+	margin: 0;
+	padding: 0;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
+	flex-direction: column;
+	background: #272626;
+	color: white;
+	font-family: Helvetica;
+	overflow: auto;
 }
 
-.show-card img {
-	margin-right: 25px;
+.show-body h1{
+	margin-left: 10%;
+	text-align: left;
+}
+
+.show-rows {
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.show-cards{
+	flex: 20%;
+}
+
+.show-cards img{
+	width: 341px;
+	height: 194px;
+}
+
+.show-cards p{
+	float: left;
+	display: flex;
+	align-items: center;
 }
 
 /* Media query for smaller screens (column layout) */
@@ -497,14 +525,6 @@ p {
 	font-size: 0.8rem;
 }
 
-/*	#schedule-home{
-		margin: 50px auto;
-		padding: 20px 70px;
-		max-width: 50%;
-		font-size: 0.8rem;
-		height: 500px;
-	}*/
-}
 
 @media only screen and (max-width: 767px) {
 	header li a {
@@ -515,6 +535,7 @@ p {
 	.next,
 	{
 	font-size: 0.5rem;
+	}
 }
 
 .text {
@@ -536,14 +557,7 @@ p {
 	font-size: 0.3rem;
 }
 
-/*	#schedule-home{
-		margin: 50px auto;
-		padding: 20px 70px;
-		max-width: 50%;
-		font-size: 0.8rem;
-		height: 500px;
-	}*/
-}
+
 
 
 /*@media only screen and (max-width: 1080px){
