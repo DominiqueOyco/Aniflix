@@ -500,10 +500,8 @@ p {
 		font-size: 5px;
 	}
 
-	.prev,
-	.next,
-	{
-	font-size: 1rem;
+	.prev, .next{
+	font-size: 1rem;}
 }
 
 .text {
@@ -532,9 +530,8 @@ p {
 	}
 
 	.prev,
-	.next,
-	{
-	font-size: 0.5rem;
+	.next{
+	font-size: 2rem;
 	}
 }
 
@@ -545,16 +542,16 @@ p {
 }
 
 .text h2 {
-	font-size: 0.5rem;
+	font-size: 1.5rem;
 }
 
 .text h4,
 p {
-	font-size: 0.3rem;
+	font-size: 1.3rem;
 }
 
 .web-body {
-	font-size: 0.3rem;
+	font-size: 1.2rem;
 }
 
 
@@ -612,6 +609,10 @@ p {
 	margin: auto;
 	position: relative;
 	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+    border: none;
+	outline: none;	
 }
 
 .center-buttons button {
