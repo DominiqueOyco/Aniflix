@@ -167,7 +167,7 @@ button {
 	overflow: auto;
 }
 
-.bar-item-button{
+.bar-item-button {
 	font-size: 15px;
 }
 
@@ -194,8 +194,7 @@ button {
 }*/
 
 /*THIS SECTION IS FOR THE HOMEPAGE*/
-* 
-{
+* {
 	box-sizing: border-box
 }
 
@@ -234,18 +233,24 @@ button {
 	display: flex;
 	flex-direction: column;
 	color: white;
-	overflow: hidden;
+	/* allow caption to extend below the image when needed */
+	overflow: visible;
 }
 
 .mySlides {
 	position: relative;
 	display: none;
+	/* make room for absolutely-positioned captions so they don't get clipped */
+	padding-bottom: 6rem;
+	box-sizing: border-box;
 }
 
 .mySlides img {
-	width: 100vw;
-	height: 80vh;
+	width: 100%;
+	height: auto;
+	max-height: 80vh;
 	object-fit: cover;
+	display: block;
 }
 
 /* Next & previous buttons */
@@ -288,19 +293,20 @@ button {
 	background: rgba(0, 0, 0, 0.5);
 	padding: 1rem;
 	border-radius: 10px;
+	box-sizing: border-box;
+	max-width: calc(100vw - 4rem);
 }
 
 .slide-text h2,
 .text h4,
 .text p {
-	margin: 0 100px;
+	margin: 0;
+	padding: 0 1rem;
 }
 
 .slide-text h4,
-p {
-	margin: 0 100px;
+.slide-text p {
 	margin-bottom: 0.8rem;
-
 }
 
 /* The dots/bullets/indicators */
@@ -444,7 +450,7 @@ p {
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.show-body{
+.show-body {
 	scroll-behavior: smooth;
 	position: relative;
 	height: 100%;
@@ -459,7 +465,7 @@ p {
 	overflow: auto;
 }
 
-.show-body h1{
+.show-body h1 {
 	margin-left: 10%;
 	text-align: left;
 }
@@ -471,16 +477,16 @@ p {
 	align-items: center;
 }
 
-.show-cards{
+.show-cards {
 	flex: 20%;
 }
 
-.show-cards img{
+.show-cards img {
 	width: 341px;
 	height: 194px;
 }
 
-.show-cards p{
+.show-cards p {
 	float: left;
 	display: flex;
 	align-items: center;
@@ -501,8 +507,10 @@ p {
 		font-size: 5px;
 	}
 
-	.prev, .next{
-	font-size: 1rem;}
+	.prev,
+	.next {
+		font-size: 1rem;
+	}
 }
 
 .text {
@@ -531,8 +539,8 @@ p {
 	}
 
 	.prev,
-	.next{
-	font-size: 2rem;
+	.next {
+		font-size: 2rem;
 	}
 }
 
@@ -586,11 +594,11 @@ p {
 }*/
 
 /*THIS SECTION IS FOR THE SCHEDULE*/
-.bar-item-button{
+.bar-item-button {
 	font-size: 15px;
 }
 
-.schedule-body{
+.schedule-body {
 	height: 100%;
 }
 
@@ -612,8 +620,8 @@ p {
 	display: inline-block;
 	background-color: transparent;
 	background-repeat: no-repeat;
-    border: none;
-	outline: none;	
+	border: none;
+	outline: none;
 }
 
 .center-buttons button {
